@@ -1,0 +1,629 @@
+# blueprints: augmentacije, posada, dronovi, predmeti, brodovi, sistemi, oružje
+aug_ADV_SCANNERS_title	Skeneri dugog dometa
+aug_ADV_SCANNERS_desc	Dodaje podatke o obližnjim svetionicima na zvezdanoj mapi.
+aug_AUTO_COOLDOWN_title	Automatski punjač
+aug_AUTO_COOLDOWN_desc	Vreme punjenja između hitaca oružja je kraće za 10 posto.
+aug_BACKUP_DNA_title	Rezervna DNK banka
+aug_BACKUP_DNA_desc	Tvoja posada je bezbedna u skladištu klonova čak i kad je sistem isključen ili pokvaren.
+aug_BATTERY_BOOSTER_title	Punjač baterije
+aug_BATTERY_BOOSTER_desc	Vreme blokade rezervne baterije je prepolovljeno.
+aug_CLOAK_FIRE_title	Nevidljivo oružje
+aug_CLOAK_FIRE_desc	Pucanje ne narušava maskiranje, pa možeš slobodno da gađaš dok si maskiran.
+aug_CREW_STIMS_title	Feromoni Bogomoljki
+aug_CREW_STIMS_desc	Brzina kretanja posade povećana je za 25 posto.
+aug_CRYSTAL_SHARDS_title	Kristalna osveta
+aug_CRYSTAL_SHARDS_desc	Svaki put kad tvoj brod pretrpi štetu, postoji 10 posto šanse da se odlomi krhotina koja poleti ka neprijatelju.
+aug_DEFENSE_SCRAMBLER_title	Ometač odbrane
+aug_DEFENSE_SCRAMBLER_desc	Sprečava neprijateljske odbrambene dronove da bilo šta gađaju.
+aug_DRONE_RECOVERY_title	Ruka za dronove
+aug_DRONE_RECOVERY_desc	Neuništeni dronovi se vraćaju pri skoku, pa se njihovi delovi mogu ponovo koristiti.
+aug_DRONE_SPEED_title	Pojačivač dronova
+aug_DRONE_SPEED_desc	Dronovima na brodu brzina kretanja je povećana za 25 posto.
+aug_ENERGY_SHIELD_title	Zoltanski štit
+aug_ENERGY_SHIELD_desc	Neobjašnjiva tehnologija stvara ovaj gotovo neprobojni štit. Samo nalet energije iz FTL motora je dovoljno jak da ga napuni.
+aug_EXPLOSIVE_REPLICATOR_title	Replikator eksploziva
+aug_EXPLOSIVE_REPLICATOR_desc	Raketna oružja imaju 50 posto šanse da ne potroše raketu.
+aug_FIRE_EXTINGUISHERS_title	Gašenje požara
+aug_FIRE_EXTINGUISHERS_desc	Automatski gasi požare na celom brodu.
+aug_FLEET_DISTRACTION_title	Plutače-mamci
+aug_FLEET_DISTRACTION_desc	Na početku sektora ostavlja lažni signal koji usporava pobunjenike za 1 skok.
+aug_FTL_BOOSTER_title	Pojačivač FTL punjenja
+aug_FTL_BOOSTER_desc	FTL pogon broda se puni 25 posto brže.
+aug_FTL_JAMMER_title	FTL ometač
+aug_FTL_JAMMER_desc	Ometa FTL računare neprijateljskih brodova, pa im skok traje dvostruko duže.
+aug_FTL_JUMPER_title	Napredna FTL navig.
+aug_FTL_JUMPER_desc	Omogućava skok do bilo kog ranije posećenog svetionika.
+aug_HACKING_STUN_title	Omamljivanje hakovanjem
+aug_HACKING_STUN_desc	Sva posada u prostoriji tokom impulsa hakovanja biće omamljena dok traje impuls.
+aug_ION_ARMOR_title	Obrnuto jonsko polje
+aug_ION_ARMOR_desc	Štiti brod od jonske štete, sa 50 posto šanse da je potpuno poništi.
+aug_LIFE_SCANNER_title	Skener životnih oblika
+aug_LIFE_SCANNER_desc	Otkriva položaj svih životnih oblika, čak i kad senzori ne rade.
+aug_NANO_MEDBAY_title	Engi medicinski nanoboti
+aug_NANO_MEDBAY_desc	Engi nanoboti leče posadu i van ambulante (sporije).
+aug_O2_MASKS_title	Respiratori
+aug_O2_MASKS_desc	Posada trpi upola manju štetu od nedostatka kiseonika.
+aug_REPAIR_ARM_title	Ruka za popravke
+aug_REPAIR_ARM_desc	Popravlja trup svaki put kad sakupiš otpad, ali smanjuje sakupljeni otpad za 15 posto.
+aug_ROCK_ARMOR_title	Kamena oplata
+aug_ROCK_ARMOR_desc	Vrhunski oklop trupa daje 15 posto šanse da poništi štetu na trupu (pogođeni sistemi se i dalje oštećuju).
+aug_SCRAP_COLLECTOR_title	Ruka za otpad
+aug_SCRAP_COLLECTOR_desc	Brod sakuplja 10 posto više otpada iz svih izvora.
+aug_SHIELD_RECHARGE_title	Pojačivač punjenja štita
+aug_SHIELD_RECHARGE_desc	Ubrzava obnavljanje štita za 15 posto.
+aug_SLUG_GEL_title	Puževski gel za popravke
+aug_SLUG_GEL_desc	Brodovi Puževa luče gust gel koji automatski popravlja sve proboje trupa.
+aug_STASIS_POD_title	Oštećena kapsula
+aug_STASIS_POD_desc	Ovaj bizarni vanzemaljski artefakt jedva radi. Nema nikakvu praktičnu namenu, ali možda neko može da ga popravi.
+aug_SYSTEM_CASING_title	Titanijumska kućišta
+aug_SYSTEM_CASING_desc	Svi sistemi broda imaju dodatnu oplatu koja daje 15 posto šanse da poništi štetu pri pogotku (trup se i dalje oštećuje)
+aug_TELEPORT_HEAL_title	Rekonstruktivni teleport
+aug_TELEPORT_HEAL_desc	Posada se pri teleportovanju potpuno izleči.
+aug_WEAPON_PREIGNITE_title	Predpaljenje oružja
+aug_WEAPON_PREIGNITE_desc	Oružje je odmah spremno posle FTL skoka.
+aug_ZOLTAN_BYPASS_title	Probijač zolt. štita
+aug_ZOLTAN_BYPASS_desc	Omogućava teleportovanje posade/bombi i kontrolu uma kroz super štitove.
+crew_anaerobic_title	Lanijus
+crew_anaerobic_short	Lanijus
+crew_anaerobic_desc	Ova anaerobna bića deluju sasvim prijateljski.
+crew_anaerobic_power_1	Crpi kiseonik iz prostorija.
+crew_anaerobic_power_2	Sporo kretanje, ali bez štete od nedostatka kiseonika.
+crew_crystal_title	Kristalac
+crew_crystal_short	Kristalac
+crew_crystal_desc	Drevni preci Kamenjaka.
+crew_crystal_power_1	Moć blokade (aktivira se u okviru posade)
+crew_crystal_power_4	Maks. zdravlje povećano na 125
+crew_crystal_power_3	Brzina kretanja smanjena za 20 posto
+crew_crystal_power_2	Manja šteta od gušenja
+crew_energy_title	Zoltan
+crew_energy_short	Zoltan
+crew_energy_desc	'Zoltani' su saveznici 'Engija'. Njihova urođena energija može da napaja sisteme broda.
+crew_energy_power_3	15 štete neprijateljskoj posadi pri smrti
+crew_energy_power_1	Napaja sistem u kom se nalazi
+crew_energy_power_2	Maks. zdravlje smanjeno na 70
+crew_engi_title	Engi
+crew_engi_short	Engi
+crew_engi_desc	Nije jasno da li su 'Engiji' delimično organski ili potpuno mehanički, ali je poznato da su izuzetni inženjeri.
+crew_engi_power_1	Dvostruko brža popravka
+crew_engi_power_2	Upola manja šteta u borbi
+crew_human_title	Čovek
+crew_human_short	Čovek
+crew_human_desc	Ljudi su česti i nezanimljivi.
+crew_human_power_1	Veštine napreduju malo brže
+crew_mantis_title	Bogomoljka
+crew_mantis_short	Bogomoljka
+crew_mantis_desc	Zbog nehajnosti prema pojedinačnim životima Bogomoljke su evoluirale u surovu ratničku rasu.
+crew_mantis_power_1	1,5x veća šteta u borbi
+crew_mantis_power_3	Upola sporija popravka
+crew_mantis_power_2	1,2x brže kretanje
+crew_rock_title	Kamenjak
+crew_rock_short	Kamenjak
+crew_rock_desc	'Kamenjaci' sa Vrahosa IV retko se viđaju i poznati su po izdržljivosti.
+crew_rock_power_3	Maks. zdravlje povećano na 150
+crew_rock_power_1	Otporan na vatru
+crew_rock_power_2	Upola sporije kretanje
+crew_slug_title	Puž
+crew_slug_short	Puž
+crew_slug_desc	Ove telepatske Puževe Galaktička federacija je izbegavala zbog stalnih krađa i pokušaja manipulacije.
+crew_slug_power_2	Otporan na kontrolu uma.
+crew_slug_power_1	Telepatija otkriva prostorije i životne oblike i kad senzori ne rade.
+drone_ANTI_DRONE_title	Protivborbeni dron
+drone_ANTI_DRONE_short	Protivdron
+drone_ANTI_DRONE_desc	Omamljuje borbene dronove koji napadaju tvoj brod.
+drone_BATTLE_title	Protivpešadijski dron
+drone_BATTLE_short	Protivpeš.
+drone_BATTLE_desc	Traži i pokušava da uništi sve uljeze na tvom brodu.
+drone_BOARDER_title	Abordažni dron
+drone_BOARDER_short	Abordaž
+drone_BOARDER_desc	Probija neprijateljski trup i pravi haos. Sjajno.
+drone_BOARDER_ION_title	Jonski uljez dron
+drone_BOARDER_ION_short	J. uljez
+drone_BOARDER_ION_desc	Probija neprijateljski trup i nasumično jonizuje sisteme.
+drone_COMBAT_1_title	Borbeni dron Mk I
+drone_COMBAT_1_short	Borb. I
+drone_COMBAT_1_desc	Moćan dron koji neprekidno napada neprijateljski brod.
+drone_COMBAT_2_title	Borbeni dron Mk II
+drone_COMBAT_2_short	Borb. II
+drone_COMBAT_2_desc	Moćan dron koji neprekidno napada neprijateljski brod. Kreće se i puca brže od Mk I.
+drone_COMBAT_BEAM_title	Dron sa zrakom I
+drone_COMBAT_BEAM_short	Zrak I
+drone_COMBAT_BEAM_desc	Borbeni dron koji stalno napada malim zračnim oružjem.
+drone_COMBAT_BEAM_2_title	Dron sa zrakom II
+drone_COMBAT_BEAM_2_short	Zrak II
+drone_COMBAT_BEAM_2_desc	Borbeni dron koji stalno napada većim zračnim oružjem.
+drone_COMBAT_FIRE_title	Vatreni dron
+drone_COMBAT_FIRE_short	Vatreni
+drone_COMBAT_FIRE_desc	Borbeni dron koji stalno napada malim zrakom koji pali prostorije.
+drone_DEFENSE_1_title	Odbrambeni dron Mk I
+drone_DEFENSE_1_short	Odbrana I
+drone_DEFENSE_1_desc	Obara nadolazeće rakete, asteroide i krhotine flaka.
+drone_DEFENSE_2_title	Odbrambeni dron Mk II
+drone_DEFENSE_2_short	Odbrana II
+drone_DEFENSE_2_desc	Puca brže od Mk I i može da obara i nadolazeće lasere.
+drone_DRONE_SHIELD_title	Pojačivač štita
+drone_DRONE_SHIELD_short	Štit
+drone_DRONE_SHIELD_desc	Povremeno stvara jednu barijeru super štita.
+drone_DRONE_SHIELD_PLAYER_title	Pojačivač štita
+drone_DRONE_SHIELD_PLAYER_short	Štit+
+drone_DRONE_SHIELD_PLAYER_desc	Povremeno stvara jednu barijeru super štita. Ova izmenjena šema troši 1 energiju manje.
+drone_REPAIR_title	Dron za popravku sistema
+drone_REPAIR_short	Pop. sis.
+drone_REPAIR_desc	Traži oštećene sisteme i automatski ih popravlja.
+drone_SHIP_REPAIR_title	Popravka trupa
+drone_SHIP_REPAIR_short	Pop. trupa
+drone_SHIP_REPAIR_desc	Automatski popravlja 3-5 štete na trupu po delu za dronove.
+item_drones_title	Deo za dronove
+item_drones_desc	Omogućava lansiranje pronađenih šema dronova. Svako lansiranje troši jedan deo.
+item_fuel_title	FTL gorivo
+item_fuel_desc	Pokreće FTL pogon. Jedan skok po jedinici goriva.
+item_missiles_title	Raketa
+item_missiles_desc	Višenamenska municija za sva raketna oružja.
+ship_ANAEROBIC_BOMBER_class	Lanijus bombarder
+ship_ANAEROBIC_SCOUT_class	Lanijus izviđač
+ship_AUTO_ASSAULT_class	Auto-jurišnik
+ship_AUTO_ASSAULT_DLC_class	Auto-haker
+ship_AUTO_BASIC_class	Auto-izviđač
+ship_AUTO_BASIC_DLC_class	Auto-istraživač
+ship_BOSS_1_class	Pobunjenički vodeći brod
+ship_BOSS_1_EASY_class	Pobunjenički vodeći brod
+ship_BOSS_1_EASY_DLC_class	Pobunjenički vodeći brod
+ship_BOSS_1_HARD_class	Pobunjenički vodeći brod
+ship_BOSS_1_HARD_DLC_class	Pobunjenički vodeći brod
+ship_BOSS_1_NORMAL_class	Pobunjenički vodeći brod
+ship_BOSS_1_NORMAL_DLC_class	Pobunjenički vodeći brod
+ship_BOSS_2_class	Pobunjenički vodeći brod
+ship_BOSS_2_EASY_class	Pobunjenički vodeći brod
+ship_BOSS_2_EASY_DLC_class	Pobunjenički vodeći brod
+ship_BOSS_2_HARD_class	Pobunjenički vodeći brod
+ship_BOSS_2_HARD_DLC_class	Pobunjenički vodeći brod
+ship_BOSS_2_NORMAL_class	Pobunjenički vodeći brod
+ship_BOSS_2_NORMAL_DLC_class	Pobunjenički vodeći brod
+ship_BOSS_3_class	Pobunjenički vodeći brod
+ship_BOSS_3_EASY_class	Pobunjenički vodeći brod
+ship_BOSS_3_EASY_DLC_class	Pobunjenički vodeći brod
+ship_BOSS_3_HARD_class	Pobunjenički vodeći brod
+ship_BOSS_3_HARD_DLC_class	Pobunjenički vodeći brod
+ship_BOSS_3_NORMAL_class	Pobunjenički vodeći brod
+ship_BOSS_3_NORMAL_DLC_class	Pobunjenički vodeći brod
+ship_BOSS_DEMO_class	Vodeći brod u izgradnji
+ship_BOSS_SPECIAL_class	Vodeći brod u izgradnji
+ship_CRYSTAL_BOMBER_class	Kristalni bombarder
+ship_CRYSTAL_BOMBER_DLC_class	Kristalni podstrekač
+ship_CRYSTAL_SCOUT_class	Kristalni izviđač
+ship_CRYSTAL_SCOUT_DLC_class	Kristalni prethodnik
+ship_DEFAULT_class	Pobunjenički monter
+ship_ENGI_BOMBER_class	Engi bombarder
+ship_ENGI_BOMBER_DLC_class	Engi haker
+ship_ENGI_SCOUT_class	Engi izviđač
+ship_ENGI_SCOUT_DLC_class	Engi prethodnik
+ship_FED_BOMBER_class	Bombarder Federacije
+ship_FED_BOMBER_DLC_class	Haker Federacije
+ship_FED_BOMBER_PIRATE_class	Piratski bombarder
+ship_FED_BOMBER_PIRATE_DLC_class	Piratski haker
+ship_FED_SCOUT_class	Izviđač Federacije
+ship_FED_SCOUT_DLC_class	Prethodnik Federacije
+ship_FED_SCOUT_PIRATE_class	Piratski izviđač
+ship_FED_SCOUT_PIRATE_DLC_class	Piratski prethodnik
+ship_IMPOSSIBLE_PIRATE_class	Nemogući pirat
+ship_JELLY_BUTTON_class	Puževski presretač
+ship_JELLY_BUTTON_DLC_class	Puževski izviđač
+ship_JELLY_BUTTON_PIRATE_class	Piratski presretač
+ship_JELLY_BUTTON_PIRATE_DLC_class	Piratski izviđač
+ship_JELLY_CROISSANT_class	Puževska laka krstarica
+ship_JELLY_CROISSANT_DLC_class	Puževski laki istraživač
+ship_JELLY_CROISSANT_PIRATE_class	Piratska laka krstarica
+ship_JELLY_CROISSANT_PIRATE_DLC_class	Piratski laki istraživač
+ship_JELLY_TRUFFLE_class	Puževski jurišnik
+ship_JELLY_TRUFFLE_DLC_class	Puževski podstrekač
+ship_JELLY_TRUFFLE_PIRATE_class	Piratski jurišnik
+ship_JELLY_TRUFFLE_PIRATE_DLC_class	Piratski podstrekač
+ship_LONG_ELITE_HARD_class	Pobunjenička elita
+ship_LONG_ELITE_MED_class	Pobunjenička elita
+ship_MANTIS_BOMBER_class	Bombarder Bogomoljki
+ship_MANTIS_BOMBER_DLC_class	Agresor Bogomoljki
+ship_MANTIS_BOMBER_PIRATE_class	Piratski bombarder
+ship_MANTIS_BOMBER_PIRATE_DLC_class	Piratski agresor
+ship_MANTIS_FIGHTER_class	Lovac Bogomoljki
+ship_MANTIS_FIGHTER_DLC_class	Jurišnik Bogomoljki
+ship_MANTIS_FIGHTER_PIRATE_class	Piratski lovac
+ship_MANTIS_FIGHTER_PIRATE_DLC_class	Piratski jurišnik
+ship_MANTIS_SCOUT_class	Izviđač Bogomoljki
+ship_MANTIS_SCOUT_DLC_class	Presretač Bogomoljki
+ship_MANTIS_SCOUT_PIRATE_class	Piratski izviđač
+ship_MANTIS_SCOUT_PIRATE_DLC_class	Piratski presretač
+ship_PLAYER_SHIP_ANAEROBIC_name	Kruos
+ship_PLAYER_SHIP_ANAEROBIC_class	Lanijus krstarica
+ship_PLAYER_SHIP_ANAEROBIC_desc	Oštre strukture nalik noževima čine brodove Lanijusa pravim prizorom. Ova krstarica je prilagođena drugim rasama Federacije.
+ship_PLAYER_SHIP_ANAEROBIC_unlock	Namami Lanijuse vrednom flotom. Otključaj 4 broda pored krstarice Kestrel da otključaš ovaj brod.
+ship_PLAYER_SHIP_ANAEROBIC_2_name	Shrike
+ship_PLAYER_SHIP_ANAEROBIC_2_class	Lanijus krstarica
+ship_PLAYER_SHIP_ANAEROBIC_2_desc	Rasna sposobnost Lanijusa čini ih strašnim borcima u skučenom prostoru. Uz sistem kontrole uma, ovaj brod je sila sa kojom se mora računati.
+ship_PLAYER_SHIP_ANAEROBIC_2_unlock	Ispuni 2/3 dostignuća Lanijus krstarice da otključaš ovaj brod.
+ship_PLAYER_SHIP_CIRCLE_name	Torus
+ship_PLAYER_SHIP_CIRCLE_class	Engi krstarica
+ship_PLAYER_SHIP_CIRCLE_desc	Iako liči na gomilu otpada labavo spojenu, ovaj dobro osmišljen brod se oslanja na dronove i jonsko oružje.
+ship_PLAYER_SHIP_CIRCLE_unlock	Da otključaš ovaj Engi brod, moraš stići do 5. sektora bilo kojim rasporedom Kestrela.
+ship_PLAYER_SHIP_CRYSTAL_name	Bravais
+ship_PLAYER_SHIP_CRYSTAL_class	Kristalna krstarica
+ship_PLAYER_SHIP_CRYSTAL_desc	Ovaj moćni brod pokreću tajne tehnologije izgubljenih Kristalnih bića.
+ship_PLAYER_SHIP_CRYSTAL_unlock	Otputuj u izgubljeni sektor galaksije da pronađeš ovaj moćni brod.
+ship_PLAYER_SHIP_CRYSTAL_2_name	Carnelian
+ship_PLAYER_SHIP_CRYSTAL_2_class	Kristalna krstarica
+ship_PLAYER_SHIP_CRYSTAL_2_desc	Zbog jedinstvene rasne sposobnosti Kristalci su vrlo vešti u abordažu. Ovaj brod je napravljen za takve prepade.
+ship_PLAYER_SHIP_CRYSTAL_2_unlock	Ispuni 2/3 dostignuća ove krstarice da otključaš ovaj brod.
+ship_PLAYER_SHIP_ENERGY_name	Adjudicator
+ship_PLAYER_SHIP_ENERGY_class	Krst. Zoltana
+ship_PLAYER_SHIP_ENERGY_desc	Napredna zoltanska tehnologija štitova daje ovom brodu prednost u svakoj bici.
+ship_PLAYER_SHIP_ENERGY_unlock	Nauči od Zoltana da diplomatija ponekad uspeva.
+ship_PLAYER_SHIP_ENERGY_2_name	Noether
+ship_PLAYER_SHIP_ENERGY_2_class	Krst. Zoltana
+ship_PLAYER_SHIP_ENERGY_2_desc	Ovaj brod počinje sa oslabljenim sistemom štitova i mora se oslanjati na super štit.
+ship_PLAYER_SHIP_ENERGY_2_unlock	Ispuni 2/3 dostignuća zoltanske krstarice da otključaš ovaj brod.
+ship_PLAYER_SHIP_ENERGY_3_name	Cerenkov
+ship_PLAYER_SHIP_ENERGY_3_class	Krst. Zoltana
+ship_PLAYER_SHIP_ENERGY_3_desc	Konstruktor ovog broda nije hteo da potroši novac na pristojan reaktor. Umesto toga brod se oslanja na zoltansku posadu i rezervnu bateriju.
+ship_PLAYER_SHIP_ENERGY_3_unlock	Stigni do 8. sektora zoltanskom krstaricom tipa B uz uključen napredni sadržaj da otključaš ovaj brod.
+ship_PLAYER_SHIP_ENGI_2_name	Vortex
+ship_PLAYER_SHIP_ENGI_2_class	Engi krstarica
+ship_PLAYER_SHIP_ENGI_2_desc	Sa veoma malo posade, ovaj brod se oslanja na dronove da bi radio.
+ship_PLAYER_SHIP_ENGI_2_unlock	Ispuni 2/3 dostignuća Engi krstarice da otključaš ovaj brod.
+ship_PLAYER_SHIP_ENGI_3_name	Tetragon
+ship_PLAYER_SHIP_ENGI_3_class	Engi krstarica
+ship_PLAYER_SHIP_ENGI_3_desc	Engiji su se brzo prilagodili naglom razvoju tehnologije hakovanja - ovaj brod je rezultat njihovog istraživanja.
+ship_PLAYER_SHIP_ENGI_3_unlock	Stigni do 8. sektora Engi krstaricom tipa B uz uključen napredni sadržaj da otključaš ovaj brod.
+ship_PLAYER_SHIP_FED_name	Osprey
+ship_PLAYER_SHIP_FED_class	Krstarica Federacije
+ship_PLAYER_SHIP_FED_desc	Ovaj brod ima najnoviju tehnologiju Federacije: napredno zračno oružje koje probija štitove.
+ship_PLAYER_SHIP_FED_unlock	Kruže glasine o naprednoj gradnji brodova u pobunjeničkom uporištu...
+ship_PLAYER_SHIP_FED_2_name	Nisos
+ship_PLAYER_SHIP_FED_2_class	Krstarica Federacije
+ship_PLAYER_SHIP_FED_2_desc	Ovaj brod počinje sa dodatnom energijom artiljerije, pa se uveliko oslanja na zrak.
+ship_PLAYER_SHIP_FED_2_unlock	Ispuni 2/3 dostignuća krstarice Federacije da otključaš ovaj brod.
+ship_PLAYER_SHIP_FED_3_name	Fregatidae
+ship_PLAYER_SHIP_FED_3_class	Krstarica Federacije
+ship_PLAYER_SHIP_FED_3_desc	Sa flak artiljerijom i poboljšanom klonirnicom, samo najsamoubilačkiji pešadinci biraju da lete ovim brodom.
+ship_PLAYER_SHIP_FED_3_unlock	Stigni do 8. sektora krstaricom Federacije tipa B uz uključen napredni sadržaj da otključaš ovaj brod.
+ship_PLAYER_SHIP_JELLY_name	Man of War
+ship_PLAYER_SHIP_JELLY_class	Krst. Puževa
+ship_PLAYER_SHIP_JELLY_desc	Napravljena za magline, ova krstarica nema senzore i oslanja se na lukavstvo i prepredenost Puževa.
+ship_PLAYER_SHIP_JELLY_unlock	Neki puževski brod mora da zna nešto o ovoj naprednoj krstarici. Možda ih možeš „ubediti” da ti kažu.
+ship_PLAYER_SHIP_JELLY_2_name	Stormwalker
+ship_PLAYER_SHIP_JELLY_2_class	Krst. Puževa
+ship_PLAYER_SHIP_JELLY_2_desc	Ovaj abordažni brod nema medicinske objekte i mora pažljivo da rukuje eksplozivom da bi posada preživela.
+ship_PLAYER_SHIP_JELLY_2_unlock	Ispuni 2/3 dostignuća puževske krstarice da otključaš ovaj brod.
+ship_PLAYER_SHIP_JELLY_3_name	Ariolimax
+ship_PLAYER_SHIP_JELLY_3_class	Krst. Puževa
+ship_PLAYER_SHIP_JELLY_3_desc	Puževi su često vešti u obmanama i manipulaciji. Sa sistemima hakovanja i kontrole uma, ovaj brod to koristi.
+ship_PLAYER_SHIP_JELLY_3_unlock	Stigni do 8. sektora puževskom krstaricom tipa B uz uključen napredni sadržaj da otključaš ovaj brod.
+ship_PLAYER_SHIP_KESTREL_name	Kestrel
+ship_PLAYER_SHIP_KESTREL_class	Krstarica Kestrel
+ship_PLAYER_SHIP_KESTREL_desc	Ova klasa brodova je pre mnogo godina povučena iz službe Federacije. Posle niza prepravki i nadogradnji, ovaj klasični brod je spreman za borbu.
+ship_PLAYER_SHIP_KESTREL_2_name	Red-Tail
+ship_PLAYER_SHIP_KESTREL_2_class	Krstarica Kestrel
+ship_PLAYER_SHIP_KESTREL_2_desc	Ovaj izmenjeni brod klase Kestrel napravio je zaljubljenik u laserska oružja.
+ship_PLAYER_SHIP_KESTREL_2_unlock	Ispuni 2/3 dostignuća krstarice Kestrel da otključaš ovaj brod.
+ship_PLAYER_SHIP_KESTREL_3_name	Swallow
+ship_PLAYER_SHIP_KESTREL_3_class	Krstarica Kestrel
+ship_PLAYER_SHIP_KESTREL_3_desc	Pirati su izmenili ovaj model da koristi novootkrivenu tehnologiju. Može da klonira izgubljene članove posade i omamljuje neprijatelje.
+ship_PLAYER_SHIP_KESTREL_3_unlock	Stigni do 8. sektora krstaricom Kestrel tipa B uz uključen napredni sadržaj da otključaš ovaj brod.
+ship_PLAYER_SHIP_MANTIS_name	Gila Monster
+ship_PLAYER_SHIP_MANTIS_class	Krst. Bogomoljki
+ship_PLAYER_SHIP_MANTIS_desc	Ovaj ratni brod je napravljen da osnaži posadu za misije bliske borbe.
+ship_PLAYER_SHIP_MANTIS_unlock	Ovaj brod pripada čuvenom lopovu Bogomoljki, KazaaakplethKiliku. Moraćeš da ga „ubediš” da ti pomogne.
+ship_PLAYER_SHIP_MANTIS_2_name	Basilisk
+ship_PLAYER_SHIP_MANTIS_2_class	Krst. Bogomoljki
+ship_PLAYER_SHIP_MANTIS_2_desc	Ovaj ratni brod podstiče slanje velikih abordažnih timova i održavanje jake odbrane.
+ship_PLAYER_SHIP_MANTIS_2_unlock	Ispuni 2/3 dostignuća krstarice Bogomoljki da otključaš ovaj brod.
+ship_PLAYER_SHIP_MANTIS_3_name	Theseus
+ship_PLAYER_SHIP_MANTIS_3_class	Krst. Bogomoljki
+ship_PLAYER_SHIP_MANTIS_3_desc	Sa velikim teleporterom i oružjem koje ometa neprijateljsku posadu, ovaj brod je smrtonosan u rukama sposobnog abordažnog tima.
+ship_PLAYER_SHIP_MANTIS_3_unlock	Stigni do 8. sektora krstaricom Bogomoljki tipa B uz uključen napredni sadržaj da otključaš ovaj brod.
+ship_PLAYER_SHIP_ROCK_name	Bulwark
+ship_PLAYER_SHIP_ROCK_class	Krst. Kamenjaka
+ship_PLAYER_SHIP_ROCK_desc	Kao i njegovi tvorci, ovaj supergusti behemot slama neprijatelje grubom silom.
+ship_PLAYER_SHIP_ROCK_unlock	Dokaži se Kamenjacima da zaslužiš ovu moćnu krstaricu.
+ship_PLAYER_SHIP_ROCK_2_name	Shivan
+ship_PLAYER_SHIP_ROCK_2_class	Krst. Kamenjaka
+ship_PLAYER_SHIP_ROCK_2_desc	Bez vazdušnih komora, ovaj brod se u gašenju požara potpuno oslanja na posadu Kamenjaka.
+ship_PLAYER_SHIP_ROCK_2_unlock	Ispuni 2/3 dostignuća krstarice Kamenjaka da otključaš ovaj brod.
+ship_PLAYER_SHIP_ROCK_3_name	Tektite
+ship_PLAYER_SHIP_ROCK_3_class	Krst. Kamenjaka
+ship_PLAYER_SHIP_ROCK_3_desc	Uspostavljen je kontakt sa Kristalnom rasom, a ova krstarica je ponuđena Federaciji u okviru diplomatskih razgovora dve srodne vrste.
+ship_PLAYER_SHIP_ROCK_3_unlock	Stigni do 8. sektora krstaricom Kamenjaka tipa B uz uključen napredni sadržaj da otključaš ovaj brod.
+ship_PLAYER_SHIP_STEALTH_name	Nesasio
+ship_PLAYER_SHIP_STEALTH_class	Nevidljiva krst.
+ship_PLAYER_SHIP_STEALTH_desc	Napravljen za Federaciju od strane Engija, ovaj brod koristi maskiranje i brzinu da se probije iza neprijateljskih linija.
+ship_PLAYER_SHIP_STEALTH_unlock	Ovaj brod se gradi blizu matičnih svetova Engija. Da ga otključaš, moraš im pomoći, ali oni veruju samo svojima.
+ship_PLAYER_SHIP_STEALTH_2_name	DA-SR 12
+ship_PLAYER_SHIP_STEALTH_2_class	Nevidljiva krst.
+ship_PLAYER_SHIP_STEALTH_2_desc	Krhak kao stakleni top, ovaj brod je težak za upravljanje. Ako ga maskiranje sačuva dovoljno dugo da napuni oružje, malo koja krstarica može da odoli njegovoj moći.
+ship_PLAYER_SHIP_STEALTH_2_unlock	Ispuni 2/3 dostignuća nevidljive krstarice da otključaš ovaj brod.
+ship_PLAYER_SHIP_STEALTH_3_name	Simo-H
+ship_PLAYER_SHIP_STEALTH_3_class	Nevidljiva krst.
+ship_PLAYER_SHIP_STEALTH_3_desc	Ovaj brod je bio deo Engi eksperimenta da se napravi energetski efikasna verzija zoltanskog štita. Nažalost, za to je morao biti uklonjen sistem maskiranja.
+ship_PLAYER_SHIP_STEALTH_3_unlock	Stigni do 8. sektora nevidljivom krstaricom tipa B uz uključen napredni sadržaj da otključaš ovaj brod.
+ship_PLAYER_SHIP_TUTORIAL_name	Kestrel
+ship_PLAYER_SHIP_TUTORIAL_class	Kestrel
+ship_REBEL_FAT_class	Pobunjenički monter
+ship_REBEL_FAT_DLC_class	Pobunjenički ometač
+ship_REBEL_FAT_PIRATE_class	Piratski monter
+ship_REBEL_FAT_PIRATE_DLC_class	Piratski ometač
+ship_REBEL_SKINNY_class	Pobunjenički lovac
+ship_REBEL_SKINNY_DLC_class	Pobunjenički osvajač
+ship_REBEL_SKINNY_ELITE_class	Elitni lovac
+ship_REBEL_SKINNY_ELITE_DLC_class	Elitni jurišnik
+ship_REBEL_SKINNY_PIRATE_class	Piratski lovac
+ship_REBEL_SKINNY_PIRATE_DLC_class	Piratski osvajač
+ship_REBEL_TRANSPORT_class	Pobunjenički transporter
+ship_ROCK_ASSAULT_class	Jurišnik Kamenjaka
+ship_ROCK_ASSAULT_DLC_class	Agresor Kamenjaka
+ship_ROCK_ASSAULT_ELITE_class	Jurišnik Kamenjaka
+ship_ROCK_FIGHT_class	Lovac Kamenjaka
+ship_ROCK_FIGHT_DLC_class	Presretač Kamenjaka
+ship_ROCK_FIGHT_PIRATE_class	Piratski lovac
+ship_ROCK_FIGHT_PIRATE_DLC_class	Piratski presretač
+ship_ROCK_SCOUT_class	Izviđač Kamenjaka
+ship_ROCK_SCOUT_DLC_class	Istražitelj Kamenjaka
+ship_ROCK_SCOUT_PIRATE_class	Piratski izviđač
+ship_ROCK_SCOUT_PIRATE_DLC_class	Piratski istražitelj
+ship_TUTORIAL_PIRATE_class	Pirat
+ship_ZOLTAN_BOMBER_class	Energetski bombarder
+ship_ZOLTAN_BOMBER_DLC_class	Energetski haker
+ship_ZOLTAN_BOMBER_PIRATE_class	Piratski bombarder
+ship_ZOLTAN_BOMBER_PIRATE_DLC_class	Piratski haker
+ship_ZOLTAN_FIGHTER_class	Energetski lovac
+ship_ZOLTAN_FIGHTER_DLC_class	Energetski podstrekač
+ship_ZOLTAN_FIGHTER_PIRATE_class	Piratski lovac
+ship_ZOLTAN_FIGHTER_PIRATE_DLC_class	Piratski podstrekač
+ship_ZOLTAN_PEACE_class	Energetski lovac
+system_battery_title	Rezervna baterija
+system_battery_desc	Daje reaktoru dodatnu energiju na 30 sekundi. Nadogradnja povećava količinu dodatne energije.
+system_cloaking_title	Maskiranje
+system_cloaking_desc	Maskira brod, dodaje 60 izbegavanja i sprečava neprijatelja da nacilja tvoj brod oružjem.
+system_clonebay_title	Klonirnica
+system_clonebay_desc	Automatski klonira poginulu posadu uz gubitak veština. Zahvaljujući mikrokloniranju posada se delimično leči pri svakom skoku. Lečenje pri skoku je pasivno i ne troši energiju.
+system_doors_title	Sistem vrata
+system_doors_desc	Omogućava daljinsko otvaranje i zatvaranje vrata. Nadogradnja daje blindirana vrata koja ometaju širenje vatre i kretanje uljeza.
+system_drones_title	Kontrola dronova
+system_drones_desc	Napaja sve dronove broda. Dronovi su automatizovani roboti koji obavljaju zadatke poput napada na neprijateljske brodove ili popravke sistema.
+system_engines_title	Motori
+system_engines_desc	Napajaju FTL pogon i omogućavaju brodu da izbegava. Nadogradnja povećava šansu za izbegavanje i brzinu punjenja FTL pogona.
+system_hacking_title	Hakovanje
+system_hacking_desc	Cilja jedan sistem, zaključava mu vrata i daje mogućnost da ga privremeno onesposobiš ili ometaš. Za lansiranje je potreban deo za dronove.
+system_medbay_title	Ambulanta
+system_medbay_desc	Leči sve članove posade u ambulanti. Nadogradnja ubrzava lečenje.
+system_mind_title	Kontrola uma
+system_mind_desc	Privremeno pretvara neprijatelje u saveznike.
+system_oxygen_title	Kiseonik
+system_oxygen_desc	Obnavlja kiseonik na brodu. Nadogradnja ubrzava obnavljanje.
+system_pilot_title	Pilotiranje
+system_pilot_desc	Kad je pilot na mestu, brod može da izvodi FTL skokove i izbegava. Nadogradnja dodaje autopilota koji daje nešto izbegavanja i bez pilota.
+system_sensors_title	Senzori
+system_sensors_desc	Otkriva unutrašnjost tvog broda i daje podatke o neprijateljskim brodovima.
+system_shields_title	Štitovi
+system_shields_desc	Napaja štitove. Svaka dodatna barijera može da zaustavi jedan hitac.
+system_teleporter_title	Teleporter posade
+system_teleporter_desc	Omogućava slanje posade u abordaž neprijateljskih brodova.
+system_weapons_title	Kontrola oružja
+system_weapons_desc	Napaja sva oružja broda. Nadogradnja omogućava napajanje više oružja.
+weapon_ARTILLERY_FED_title	Artiljerijski zrak
+weapon_ARTILLERY_FED_short	Artiljer.
+weapon_ARTILLERY_FED_desc	Napaja spor, snažan zrak koji probija sve štitove i nanosi jednu štetu po pogođenoj sobi. Više energije znači brže punjenje.
+weapon_ARTILLERY_FED_tooltip	Artiljerija: automatski ispaljuje zrak od 1 štete koji probija sve štitove
+weapon_ARTILLERY_FED_C_title	Flak artiljerija
+weapon_ARTILLERY_FED_C_short	Flak A.
+weapon_ARTILLERY_FED_C_flavorType	Fizički projektil - šrapnel
+weapon_ARTILLERY_FED_C_desc	Napaja spor, snažan flak top koji ispaljuje sedam projektila. Više energije znači brže punjenje.
+weapon_ARTILLERY_FED_C_tooltip	Artiljerija: flak top koji automatski ispaljuje 7 projektila.
+weapon_BEAM_1_title	Mini zrak
+weapon_BEAM_1_short	Mini zrak
+weapon_BEAM_1_desc	Izuzetno jeftino i slabo zračno oružje.
+weapon_BEAM_1_tooltip	Zračno oružje od jedne štete po sobi.
+weapon_BEAM_2_title	Zrak Halebarda
+weapon_BEAM_2_short	Halebarda
+weapon_BEAM_2_desc	Sporo, ali pouzdano snažno standardno zračno oružje.
+weapon_BEAM_2_tooltip	Zračno oružje, 2 štete po sobi.
+weapon_BEAM_3_title	Zrak Glefa
+weapon_BEAM_3_short	Glefa
+weapon_BEAM_3_desc	Jedno od najmoćnijih ratnih oružja ikad napravljenih. Poznato je da neke brodove uništi jednim udarom.
+weapon_BEAM_3_tooltip	Veliki zrak koji nanosi 3 štete po sobi.
+weapon_BEAM_BIO_title	Protivbiološki zrak
+weapon_BEAM_BIO_short	Biozrak
+weapon_BEAM_BIO_desc	Ovaj zastrašujući zrak ne nanosi fizičku štetu, ali cepa organsku materiju i teško povređuje članove posade.
+weapon_BEAM_BIO_tooltip	Zračno oružje od 2 energije koje teško povređuje neprijateljsku posadu.
+weapon_BEAM_FIRE_title	Vatreni zrak
+weapon_BEAM_FIRE_short	Vat. zrak
+weapon_BEAM_FIRE_desc	Ovaj zastrašujući zrak ne nanosi fizičku štetu, ali izaziva požare.
+weapon_BEAM_FIRE_tooltip	Zračno oružje koje izaziva požare.
+weapon_BEAM_HULL_title	Zrak za trup
+weapon_BEAM_HULL_short	Zrak-trup
+weapon_BEAM_HULL_desc	Ovaj zrak je najjači kad gađa velike, prazne delove trupa.
+weapon_BEAM_HULL_tooltip	Zračno oružje; 1 šteta; 2x šteta u sobama bez sistema.
+weapon_BEAM_LONG_title	Zrak Koplje
+weapon_BEAM_LONG_short	Koplje
+weapon_BEAM_LONG_desc	Može da preseče ceo brod, ako ga nijedan štit ne zaustavi.
+weapon_BEAM_LONG_tooltip	Zračno oružje produžene linije. 1 šteta po sobi.
+weapon_BOMB_1_title	Mala bomba
+weapon_BOMB_1_short	Mala b.
+weapon_BOMB_1_desc	Samoteleportujući eksploziv koji oštećuje sisteme i posadu, ali ne i trup. Može da gađa tvoj brod.
+weapon_BOMB_1_tooltip	Bomba; troši raketu; nanosi 2 štete, ali samo sistemu, ne trupu. Može da gađa tvoj brod.
+weapon_BOMB_BREACH_1_title	Probojna bomba Mk I
+weapon_BOMB_BREACH_1_short	Proboj I
+weapon_BOMB_BREACH_1_desc	Samoteleportujući eksploziv koji oštećuje sisteme i pravi proboj. Može da gađa tvoj brod.
+weapon_BOMB_BREACH_1_tooltip	Bomba; troši raketu; nanosi 1 štetu sistemima i pravi proboj trupa. Može da gađa tvoj brod.
+weapon_BOMB_BREACH_2_title	Probojna bomba Mk II
+weapon_BOMB_BREACH_2_short	Proboj II
+weapon_BOMB_BREACH_2_desc	Sporija od Mk I, ali nanosi veću štetu sistemima i posadi. Može da gađa tvoj brod.
+weapon_BOMB_BREACH_2_tooltip	Bomba; troši raketu; nanosi 3 štete sistemima i pravi proboj trupa. Može da gađa tvoj brod.
+weapon_BOMB_FIRE_title	Zapaljiva bomba
+weapon_BOMB_FIRE_short	Zap. b.
+weapon_BOMB_FIRE_desc	Samoteleportujući eksploziv koji povređuje posadu i izaziva požare. Može da gađa tvoj brod.
+weapon_BOMB_FIRE_tooltip	Bomba; troši raketu; ne nanosi štetu, ali izaziva požare. Može da gađa tvoj brod.
+weapon_BOMB_HEAL_title	Isceljujući udar
+weapon_BOMB_HEAL_short	Isc. b.
+weapon_BOMB_HEAL_desc	Samoteleportujuća jedinica koja trenutno leči svu prijateljsku posadu u prostoriji. Može da gađa tvoj brod.
+weapon_BOMB_HEAL_tooltip	Bomba; troši raketu; leči obližnje članove posade. Može da gađa tvoj brod.
+weapon_BOMB_HEAL_SYSTEM_title	Popravljački udar
+weapon_BOMB_HEAL_SYSTEM_short	Popr. b.
+weapon_BOMB_HEAL_SYSTEM_desc	Samoteleportujuća jedinica koja preplavi prostoriju nanobotima koji potpuno popravljaju svu štetu na sistemu.
+weapon_BOMB_HEAL_SYSTEM_tooltip	Bomba; troši raketu; potpuno popravlja sistem. Može da gađa tvoj brod.
+weapon_BOMB_ION_title	Jonska bomba
+weapon_BOMB_ION_short	J. bomba
+weapon_BOMB_ION_desc	Samoteleportujući eksploziv koji jonskom štetom onesposobljava sisteme. Može da gađa tvoj brod.
+weapon_BOMB_ION_tooltip	Bomba; troši raketu; ne nanosi štetu, ali nanosi 4 jonske štete. Može da gađa tvoj brod.
+weapon_BOMB_LOCK_title	Kristalna bomba za blokadu
+weapon_BOMB_LOCK_short	Blok. b.
+weapon_BOMB_LOCK_desc	Samoteleportujući eksploziv koji ne nanosi štetu, ali stvara gust zid koji sprečava ulazak u prostoriju i izlazak iz nje. Može da gađa tvoj brod.
+weapon_BOMB_LOCK_tooltip	Bomba; troši raketu; ne nanosi štetu; sprečava ulazak u prostoriju i izlazak. Može da gađa tvoj brod.
+weapon_BOMB_STUN_title	Omamljujuća bomba
+weapon_BOMB_STUN_short	Omam. b.
+weapon_BOMB_STUN_desc	Samoteleportujući eksploziv koji nanosi 1 jonsku štetu i omamljuje svu posadu u prostoriji. Može da gađa tvoj brod.
+weapon_BOMB_STUN_tooltip	Bomba; troši raketu; nanosi 1 jonsku štetu. Omamljuje svu posadu u prostoriji. Može da gađa tvoj brod.
+weapon_CRYSTAL_BURST_1_title	Kristalni rafal Mk I
+weapon_CRYSTAL_BURST_1_short	Krist. r. I
+weapon_CRYSTAL_BURST_1_desc	Izmenjeno projektilno oružje koje ispaljuje 2 kristala što probijaju štit.
+weapon_CRYSTAL_BURST_1_tooltip	Probija 1 štit; ispaljuje 2 kristala od po 1 štete.
+weapon_CRYSTAL_BURST_2_title	Kristalni rafal Mk II
+weapon_CRYSTAL_BURST_2_short	Krist. r. II
+weapon_CRYSTAL_BURST_2_desc	Izmenjeno projektilno oružje koje ispaljuje 3 kristala što probijaju štit.
+weapon_CRYSTAL_BURST_2_tooltip	Probija 1 štit; ispaljuje 3 kristala od po 1 štete.
+weapon_CRYSTAL_HEAVY_1_title	Teški kristal Mk I
+weapon_CRYSTAL_HEAVY_1_short	Krist. t. I
+weapon_CRYSTAL_HEAVY_1_desc	Izmenjeno projektilno oružje koje ispaljuje veliki kristal što probija štit.
+weapon_CRYSTAL_HEAVY_1_tooltip	Probija 1 štit; ispaljuje 1 kristal od 2 štete.
+weapon_CRYSTAL_HEAVY_2_title	Teški kristal Mk II
+weapon_CRYSTAL_HEAVY_2_short	Krist. t. II
+weapon_CRYSTAL_HEAVY_2_desc	Izmenjeno projektilno oružje koje ispaljuje veliki kristal što probija štit.
+weapon_CRYSTAL_HEAVY_2_tooltip	Probija 1 štit; ispaljuje 1 kristal od 4 štete koji pravi proboj trupa.
+weapon_ION_1_title	Jonski udar
+weapon_ION_1_short	J. udar
+weapon_ION_1_desc	Jonska oružja mogu da onesposobe sisteme bez oštećenja trupa.
+weapon_ION_1_tooltip	Ispaljuje jedan udar od 1 jonske štete. Može da pogodi i onesposobi štitove kao i sisteme.
+weapon_ION_2_title	Teški jonski
+weapon_ION_2_short	Teški jon.
+weapon_ION_2_desc	Jonska oružja mogu da onesposobe sisteme bez oštećenja trupa.
+weapon_ION_2_tooltip	Ispaljuje jedan udar od 2 jonske štete. Može da pogodi i onesposobi štitove kao i sisteme.
+weapon_ION_4_title	Jonski udar Mk II
+weapon_ION_4_short	J. udar II
+weapon_ION_4_desc	Jonska oružja mogu da onesposobe sisteme bez oštećenja trupa.
+weapon_ION_4_tooltip	Ispaljuje jedan udar od 1 jonske štete i puni se veoma brzo. Može da pogodi i onesposobi štitove kao i sisteme.
+weapon_ION_CHAINGUN_title	Lančani jonski
+weapon_ION_CHAINGUN_short	Lanč. J.
+weapon_ION_CHAINGUN_desc	Jonska šteta ovog oružja raste pri svakom hicu, do najviše 4.
+weapon_ION_CHAINGUN_tooltip	Ispaljuje jedan udar od 1 jonske štete. Može da pogodi i onesposobi štitove kao i sisteme.
+weapon_ION_CHARGEGUN_title	Jonski punjač
+weapon_ION_CHARGEGUN_short	Punj. J.
+weapon_ION_CHARGEGUN_desc	Ovo jonsko oružje može da se puni više puta, što mu daje dodatne projektile.
+weapon_ION_CHARGEGUN_tooltip	Što se više puni, ispaljuje više hitaca, najviše 3.
+weapon_ION_STUN_title	Jonski omamljivač
+weapon_ION_STUN_short	J. omam.
+weapon_ION_STUN_desc	Jonska oružja mogu da onesposobe sisteme bez oštećenja trupa. Ovo jonsko oružje omamljuje posadu u prostoriji na 5 sekundi.
+weapon_ION_STUN_tooltip	Ispaljuje jedan udar od 1 jonske štete. Može da pogodi i onesposobi štitove kao i sisteme.
+weapon_LASER_BURST_1_title	Odbrambeni laser Mk I
+weapon_LASER_BURST_1_short	Osn. laser
+weapon_LASER_BURST_1_desc	Veoma slab laser.
+weapon_LASER_BURST_1_tooltip	Samo jedan hitac, jedna šteta po hicu.
+weapon_LASER_BURST_2_title	Dvostruki laser
+weapon_LASER_BURST_2_short	Dvo. laser
+weapon_LASER_BURST_2_desc	Osnovni slabi dvostruki laseri. Često ih koriste transportni brodovi koji ne mogu da priušte bolje.
+weapon_LASER_BURST_2_tooltip	Ispaljuje 2 lasera od po 1 štete.
+weapon_LASER_BURST_2_A_title	Rafalni laser Mk I
+weapon_LASER_BURST_2_A_short	Raf. laser I
+weapon_LASER_BURST_2_A_desc	Ovaj jednostavni rafalni laser nije upadljiv, ali obavlja posao.
+weapon_LASER_BURST_2_A_tooltip	Ispaljuje 2 lasera od po 1 štete.
+weapon_LASER_BURST_3_title	Rafalni laser Mk II
+weapon_LASER_BURST_3_short	Raf. laser II
+weapon_LASER_BURST_3_desc	Malo poboljšana verzija rafalnog lasera koja ispaljuje više hitaca po punjenju.
+weapon_LASER_BURST_3_tooltip	Ispaljuje 3 lasera, po 1 šteta.
+weapon_LASER_BURST_5_title	Rafalni laser Mk III
+weapon_LASER_BURST_5_short	Raf. L. III
+weapon_LASER_BURST_5_desc	Moćan rafalni laser koji ispaljuje impresivnu baražnu vatru.
+weapon_LASER_BURST_5_tooltip	Ispaljuje 5 lasera, 1 šteta po hicu.
+weapon_LASER_CHAINGUN_title	Lančani rafalni laser
+weapon_LASER_CHAINGUN_short	Lanč. L.
+weapon_LASER_CHAINGUN_desc	Ovom dvostrukom laseru punjenje se skraćuje što više puca. Posle 3 rafala puni se za samo 7 sekundi.
+weapon_LASER_CHAINGUN_tooltip	Ispaljuje dva lasera od po 1 štete. Punjenje se skraćuje što više puca.
+weapon_LASER_CHAINGUN_2_title	Lančani Vulkan
+weapon_LASER_CHAINGUN_2_short	Vulkan
+weapon_LASER_CHAINGUN_2_desc	Ovom laserskom oružju treba dugo da se zagreje. Svaki hitac skraćuje punjenje, pa na kraju može da obori štitove bilo koje jačine.
+weapon_LASER_CHAINGUN_2_tooltip	Punjenje se skraćuje što više puca.
+weapon_LASER_CHARGEGUN_title	Laserski punjač
+weapon_LASER_CHARGEGUN_short	Punj. L
+weapon_LASER_CHARGEGUN_desc	Ovo lasersko oružje može da se napuni dvaput, što mu daje dodatni projektil.
+weapon_LASER_CHARGEGUN_tooltip	Što se više puni, ispaljuje više hitaca, najviše 2.
+weapon_LASER_CHARGEGUN_2_title	Laserski punjač Mk II
+weapon_LASER_CHARGEGUN_2_short	Punj. II
+weapon_LASER_CHARGEGUN_2_desc	Ovo lasersko oružje može da se puni više puta, što mu daje dodatne projektile.
+weapon_LASER_CHARGEGUN_2_tooltip	Što se više puni, ispaljuje više hitaca, najviše 4.
+weapon_LASER_CHARGEGUN_PLAYER_title	Laserski punjač
+weapon_LASER_CHARGEGUN_PLAYER_short	Punj. L
+weapon_LASER_CHARGEGUN_PLAYER_desc	Ovo lasersko oružje može da se napuni dvaput, što mu daje dodatni projektil. Ova poboljšana verzija troši samo 1 energiju.
+weapon_LASER_CHARGEGUN_PLAYER_tooltip	Što se više puni, ispaljuje više hitaca, najviše 2.
+weapon_LASER_HEAVY_1_title	Teški laser Mk I
+weapon_LASER_HEAVY_1_short	Teški laser I
+weapon_LASER_HEAVY_1_desc	Teški laseri mogu da naprave veći haos od svojih manjih rafalnih srodnika.
+weapon_LASER_HEAVY_1_tooltip	Ispaljuje 1 hitac od 2 štete, uz malu šansu za požar i proboj.
+weapon_LASER_HEAVY_1_SP_title	Teški probojni laser Mk I
+weapon_LASER_HEAVY_1_SP_short	Teški prob. I
+weapon_LASER_HEAVY_1_SP_desc	Teški laseri mogu da naprave veći haos od svojih manjih rafalnih srodnika. Ova izmenjena verzija probija 1 štit.
+weapon_LASER_HEAVY_1_SP_tooltip	Ispaljuje 1 hitac od 2 štete, uz malu šansu za požar i proboj. Ignoriše 1 štit.
+weapon_LASER_HEAVY_2_title	Teški laser Mk II
+weapon_LASER_HEAVY_2_short	Teški laser II
+weapon_LASER_HEAVY_2_desc	Ovaj teški laser ispaljuje dva hica u brzom nizu, svaki od 2 štete.
+weapon_LASER_HEAVY_2_tooltip	Ispaljuje 2 teška lasera od po 2 štete, uz malu šansu za požar i proboj.
+weapon_LASER_HULL_1_title	Laser za razbijanje trupa
+weapon_LASER_HULL_1_short	L. trup I
+weapon_LASER_HULL_1_desc	Moćan laser napravljen da nanese što veću štetu trupu.
+weapon_LASER_HULL_1_tooltip	Ispaljuje 2 lasera od po 1 štete, 2x šteta u sobama bez sistema.
+weapon_LASER_HULL_2_title	Laser za razbijanje trupa Mk II
+weapon_LASER_HULL_2_short	L. trup II
+weapon_LASER_HULL_2_desc	Ova moćna verzija lasera za razbijanje trupa Mk I ispaljuje više projektila po hicu.
+weapon_LASER_HULL_2_tooltip	Ispaljuje 3 lasera od po 1 štete, 2x šteta u sobama bez sistema.
+weapon_MISSILES_1_title	Rakete Leto
+weapon_MISSILES_1_short	Leto
+weapon_MISSILES_1_desc	Ovaj lanser je zastareo i slab, ali i dalje može biti delotvoran.
+weapon_MISSILES_1_tooltip	Ispaljuje 1 raketu; 1 šteta; probija sve štitove.
+weapon_MISSILES_2_title	Rakete Artemis
+weapon_MISSILES_2_short	Artemis
+weapon_MISSILES_2_desc	Standardni lanser raketa na većini brodova Federacije.
+weapon_MISSILES_2_tooltip	Ispaljuje 1 raketu; 2 štete; probija sve štitove.
+weapon_MISSILES_2_PLAYER_title	Rakete Artemis
+weapon_MISSILES_2_PLAYER_short	Artemis
+weapon_MISSILES_2_PLAYER_desc	Standardni lanser raketa na većini brodova Federacije.
+weapon_MISSILES_2_PLAYER_tooltip	Ispaljuje 1 raketu; 2 štete; probija sve štitove.
+weapon_MISSILES_3_title	Raketa Hermes
+weapon_MISSILES_3_short	Hermes
+weapon_MISSILES_3_desc	Standardna, ali moćna raketa.
+weapon_MISSILES_3_tooltip	Ispaljuje 1 raketu; 3 štete; probija sve štitove.
+weapon_MISSILES_BREACH_title	Probojne rakete
+weapon_MISSILES_BREACH_short	Proboj
+weapon_MISSILES_BREACH_desc	Ove rakete su napravljene da nanesu najveće razaranje oklopu trupa.
+weapon_MISSILES_BREACH_tooltip	Ispaljuje 1 raketu; 4 štete; probija sve štitove; velika šansa za proboj.
+weapon_MISSILES_BURST_title	Raketa Pegaz
+weapon_MISSILES_BURST_short	Pegaz
+weapon_MISSILES_BURST_desc	Domišljat dizajn rakete daje dva projektila po ceni jednog!
+weapon_MISSILES_BURST_tooltip	Ispaljuje 2 rakete; po 2 štete; probija sve štitove.
+weapon_MISSILES_HULL_title	Raketa za trup
+weapon_MISSILES_HULL_short	R. trup
+weapon_MISSILES_HULL_desc	Velika šteta trupu plus pristojna šansa za proboj.
+weapon_MISSILES_HULL_tooltip	Ispaljuje 1 raketu; 2 štete; 2x šteta u sobama bez sistema.
+weapon_MISSILE_CHARGEGUN_title	Rakete Roj
+weapon_MISSILE_CHARGEGUN_short	Roj
+weapon_MISSILE_CHARGEGUN_flavorType	Raketa sa punjenjem
+weapon_MISSILE_CHARGEGUN_desc	Ako ima vremena za pripremu, lanser 'Roj' može da umnoži više bojevih glava.
+weapon_MISSILE_CHARGEGUN_tooltip	Puni do 3 rakete koje probijaju štit, ali uvek troši samo jednu raketu.
+weapon_SHOTGUN_title	Flak top Mk I
+weapon_SHOTGUN_short	Flak I
+weapon_SHOTGUN_flavorType	Fizički projektil - šrapnel
+weapon_SHOTGUN_desc	Ispaljuje rafal krhotina po nasumičnoj oblasti, do 3 štete. Dobar za obaranje štitova, ali teško se nišani.
+weapon_SHOTGUN_tooltip	Ispaljuje rafal krhotina po nasumičnoj oblasti, do 3 štete.
+weapon_SHOTGUN_2_title	Flak top Mk II
+weapon_SHOTGUN_2_short	Flak II
+weapon_SHOTGUN_2_flavorType	Fizički projektil - šrapnel
+weapon_SHOTGUN_2_desc	Ispaljuje rafal krhotina po nasumičnoj oblasti, do 7 štete. Dobar za obaranje štitova, ali teško se nišani.
+weapon_SHOTGUN_2_tooltip	Ispaljuje rafal krhotina po nasumičnoj oblasti, do 7 štete.
+weapon_SHOTGUN_PLAYER_title	Napredni flak top
+weapon_SHOTGUN_PLAYER_short	Nap. flak
+weapon_SHOTGUN_PLAYER_flavorType	Fizički projektil - šrapnel
+weapon_SHOTGUN_PLAYER_desc	Ispaljuje rafal krhotina po nasumičnoj oblasti, do 3 štete. Dobar za obaranje štitova, ali teško se nišani.
+weapon_SHOTGUN_PLAYER_tooltip	Ispaljuje rafal krhotina po nasumičnoj oblasti, do 3 štete.

@@ -1,0 +1,105 @@
+# dostignuća
+ACH_SECTOR_5_name	Tek smo počeli
+ACH_SECTOR_5_desc	Stigni do 5. sektora.
+ACH_SECTOR_8_name	Baza Federacije na dometu
+ACH_SECTOR_8_desc	Stigni do 8. sektora.
+ACH_WIN_EASY_name	Pobeda Federacije (Lako)
+ACH_WIN_EASY_desc	Pobedi glavnog neprijatelja na Lako.
+ACH_WIN_NORMAL_name	Pobeda Federacije (Normalno)
+ACH_WIN_NORMAL_desc	Pobedi glavnog neprijatelja na Normalno.
+ACH_UNLOCK_ALL_name	Sopstvena flota
+ACH_UNLOCK_ALL_desc	Otključaj raspored tipa A za svaki brod.
+ACH_SCRAP_name	Pravilo deset: Pohlepa je večna
+ACH_SCRAP_desc	Sakupi 10.000 otpada u svim partijama.
+ACH_SHIPS_name	Vojskovođa
+ACH_SHIPS_desc	Porazi 1000 brodova u svim partijama.
+ACH_NO_UPGRADES_name	Ne trebaju meni nikakve nadogradnje!
+ACH_NO_UPGRADES_desc	Stigni do 5. sektora bez nadogradnje sistema/reaktora.
+ACH_PACIFIST_name	Idem na pacifističku partiju!
+ACH_PACIFIST_desc	Stigni do 5. sektora bez ispaljenog hica, napadačkog drona ili teleportovanja.
+ACH_NO_REPAIR_name	Na krilima molitve
+ACH_NO_REPAIR_desc	Stigni do 5. sektora bez popravki u prodavnici.
+ACH_NO_MISSILES_name	Balistofobija
+ACH_NO_MISSILES_desc	Stigni do 8. sektora bez korišćenja raketa/bombi.
+ACH_NO_DRONES_name	Tehnofobija
+ACH_NO_DRONES_desc	Stigni do 8. sektora bez korišćenja dronova.
+ACH_NO_BUYING_name	Od onoga što zemlja da
+ACH_NO_BUYING_desc	Stigni do 8. sektora bez kupovine u prodavnici (popravke su dozvoljene).
+ACH_NO_DEATH_name	Ovde nema crvenih košulja
+ACH_NO_DEATH_desc	Stigni do 8. sektora bez gubitka člana posade.
+ACH_BURNING_name	Neki samo vole da gledaju kako brodovi gore
+ACH_BURNING_shortname	Spali ih
+ACH_BURNING_desc	Neka istovremeno gori svako polje neprijateljskog broda.
+ACH_BAD_DODGING_name	Astronomski male šanse
+ACH_BAD_DODGING_desc	Ne izbegni 5 hitaca zaredom sa potpuno napajanim i nadograđenim motorima.
+ACH_ONE_VOLLEY_name	Nisu ni videli šta ih je snašlo
+ACH_ONE_VOLLEY_desc	Pomoću augmentacije Predpaljenje oružja uništi neprijateljski brod jednim plotunom pre nego što neprijatelj ispali ijedan hitac.
+ACH_BOARDING_DRONE_name	ABORDAŽNI CILJ OSTVAREN
+ACH_BOARDING_DRONE_desc	Neka jedan abordažni dron ubije 4 člana posade na jednom brodu.
+ACH_INVADE_SHIP_name	Pouzdani autopilot
+ACH_INVADE_SHIP_desc	Porazi neprijateljski brod dok je cela tvoja posada na njemu.
+ACH_SLICE_DICE_name	Seckanje na kockice
+ACH_SLICE_DICE_desc	Pogodi svaku prostoriju broda bar jednim zrakom za manje od 5 sekundi.
+ACH_SUFFOCATE_name	Pobeda gušenjem
+ACH_SUFFOCATE_desc	Isprazni kiseonik (ukupni nivo manji od 5 posto) neautomatizovanog, neprijateljskog broda.
+ACH_UNITED_FEDERATION_name	Ujedinjena Federacija
+ACH_UNITED_FEDERATION_desc	Imaj istovremeno šest različitih vanzemaljaca na krstarici Kestrel.
+ACH_FULL_ARSENAL_name	Pun arsenal
+ACH_FULL_ARSENAL_desc	Imaj istovremeno 11 ugrađenih sistema na krstarici Kestrel.
+ACH_TOUGH_SHIP_name	Žilavi mali brod
+ACH_TOUGH_SHIP_desc	Krstaricom Kestrel popravi trup do punog zdravlja kada joj je ostao samo 1 HP.
+ACH_ENERGY_SHIELDS_name	Štitovi drže
+ACH_ENERGY_SHIELDS_desc	Uništi brod pre nego što probije zoltanski štit.
+ACH_ENERGY_POWER_name	Dajem sve što ima, kapetane!
+ACH_ENERGY_POWER_desc	Zoltanskom krstaricom imaj istovremeno 29 energije u sistemima.
+ACH_ENERGY_MANPOWER_name	Ljudska snaga
+ACH_ENERGY_MANPOWER_desc	Stigni do 5. sektora zoltanskom krstaricom bez nadogradnje reaktora.
+ACH_STEALTH_DESTROY_name	Ptica grabljivica
+ACH_STEALTH_DESTROY_desc	Nevidljivom krstaricom uništi brod punog zdravlja tokom jednog maskiranja.
+ACH_STEALTH_AVOID_name	Fazni pomak
+ACH_STEALTH_AVOID_desc	Nevidljivom krstaricom izbegni 9 poena štete tokom jednog maskiranja.
+ACH_STEALTH_TACTICAL_name	Taktički pristup
+ACH_STEALTH_TACTICAL_desc	Nevidljivom krstaricom stigni do 8. sektora bez skoka na svetionik sa opasnim okruženjem.
+ACH_ROBOTIC_name	Robotski rat
+ACH_ROBOTIC_desc	Engi krstaricom imaj istovremeno 3 aktivna drona.
+ACH_ONLY_DRONES_name	Jedva sam mrdnuo prstom
+ACH_ONLY_DRONES_desc	Engi krstaricom uništi neprijateljski brod samo dronovima (bez oružja).
+ACH_IONED_name	Topovi... Utihnuli su
+ACH_IONED_desc	Engi krstaricom istovremeno jonizuj 4 neprijateljska sistema ili podsistema.
+ACH_ROCK_FIRE_name	Je l' ovde toplo?
+ACH_ROCK_FIRE_desc	Krstaricom Kamenjaka neka tvoja posada ubije neprijatelja koji gori na njihovom brodu.
+ACH_ROCK_MISSILES_name	Odbrambeni dronovi ne vrede ni dinara!
+ACH_ROCK_MISSILES_shortname	Kiša raketa
+ACH_ROCK_MISSILES_desc	Krstaricom Kamenjaka samo raketama uništi neprijateljski brod koji ima lansiran odbrambeni dron.
+ACH_ROCK_CRYSTAL_name	Poreklo
+ACH_ROCK_CRYSTAL_desc	Pronađi tajni sektor krstaricom Kamenjaka.
+ACH_MANTIS_CREW_DEAD_name	Bez zarobljenika!
+ACH_MANTIS_CREW_DEAD_desc	Krstaricom Bogomoljki do 6. sektora pobij posadu 20 brodova.
+ACH_MANTIS_SLAUGHTER_name	Stoj, pseta skorbutna!
+ACH_MANTIS_SLAUGHTER_desc	Krstaricom Bogomoljki ubij 5 neprijateljskih članova posade u jednoj borbi bez štete na trupu i bez gubitka člana posade.
+ACH_MANTIS_SURVIVOR_name	Bitka do poslednjeg
+ACH_MANTIS_SURVIVOR_desc	Krstaricom Bogomoljki ubij poslednjeg neprijatelja svojim poslednjim članom posade na njihovom brodu.
+ACH_SLUG_VISION_name	Na položaju smo!
+ACH_SLUG_VISION_desc	Puževskom krstaricom imaj pogled na svaku prostoriju neprijateljskog broda bez ispravnih senzora.
+ACH_SLUG_NEBULA_name	Svoja kuća, svoja sloboda
+ACH_SLUG_NEBULA_desc	Skoči na 30 lokacija u maglini pre 8. sektora.
+ACH_SLUG_BIO_name	Dezintegracioni zrak
+ACH_SLUG_BIO_desc	Puževskom krstaricom ubij 3 neprijateljska člana posade jednim hicem protivbiološkog zraka.
+ACH_FED_PATIENCE_name	Majstor strpljenja
+ACH_FED_PATIENCE_desc	Uništi neprijateljski brod samo artiljerijskim zrakom, bez štete na trupu.
+ACH_FED_DIPLOMACY_name	Diplomatski imunitet
+ACH_FED_DIPLOMACY_desc	Krstaricom Federacije do 5. sektora iskoristi posadu u 4 posebna plava izbora u događajima.
+ACH_FED_UPGRADE_name	Majstor artiljerije
+ACH_FED_UPGRADE_desc	Stigni do 5. sektora krstaricom Federacije bez nadogradnje sistema oružja.
+ACH_CRYSTAL_SHARD_name	Slatka osveta
+ACH_CRYSTAL_SHARD_desc	Uništi neprijateljski brod krhotinom augmentacije Kristalna osveta (samo na Kristalnoj krstarici).
+ACH_CRYSTAL_LOCKDOWN_name	Nema izlaza
+ACH_CRYSTAL_LOCKDOWN_desc	Kristalnom krstaricom zarobi 4 neprijateljska člana posade u jednoj prostoriji moću Kristalaca ili bombom za blokadu.
+ACH_CRYSTAL_CLASH_name	Sukob titana
+ACH_CRYSTAL_CLASH_desc	Uništi 10 brodova Kamenjaka (računaju se i piratski) Kristalnom krstaricom.
+ACH_LANIUS_ADVANCED_name	Napredno majstorstvo
+ACH_LANIUS_ADVANCED_desc	Neka hakovanje, kontrola uma i baterija budu aktivni istovremeno.
+ACH_LANIUS_SCRAP_name	Skupljač otpada
+ACH_LANIUS_SCRAP_desc	Imaj bar 600 otpada u skladištu broda.
+ACH_LANIUS_OXYGEN_name	Pad pritiska u kabini
+ACH_LANIUS_OXYGEN_desc	Stigni do 8. sektora a da ukupni nivo kiseonika na brodu ne pređe 20 posto (počinje posle prvog skoka).

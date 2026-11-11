@@ -1,0 +1,914 @@
+# misc: korisnički interfejs
+bullet	-\1
+button_close	ZATVORI
+continue	Nastavi...
+welcome	Dobrodošli u FTL: Faster Than Light!\n\nToplo preporučujemo da odvojite trenutak za obuku. Potrudili smo se da bude što kraća i jasnija!\n\nNadamo se da ćete uživati u igri.\n\n-- Subset Games
+welcome_demo	Dobrodošli u FTL demo!\n\nToplo preporučujemo da odvojite trenutak za obuku. Potrudili smo se da bude što kraća i jasnija!\n\nNadamo se da ćete uživati u igri.\n\n-- Subset Games
+version	Verzija \1
+demo_version	DEMO verzija \1
+mainmenu_continue	NASTAVI
+mainmenu_newgame	NOVA IGRA
+mainmenu_tutorial	OBUKA
+mainmenu_stats	STATISTIKA
+mainmenu_options	OPCIJE
+mainmenu_credits	AUTORI
+mainmenu_quit	IZLAZ
+no_load	Ne postoji sačuvana igra
+new_player	Novi igrač se prijavio na Game Center. Povratak na naslovni ekran.
+escape_continue	NASTAVI
+escape_mainmenu	GLAVNI MENI
+escape_hangar	HANGAR
+escape_reset	IZNOVA
+escape_options	OPCIJE
+escape_controls	KONTROLE
+escape_save	SAČUVAJ+IZAĐI
+menu_status_difficulty	Težina
+menu_status_ae_content	AE sadržaj
+menu_status_achievements	Dostignuća trenutnog broda
+help_crew_title	POSADA
+help_crew_text_top	Izdavanje naređenja:
+help_crew_text_pc_select	Levi klik ili prevlačenje\nza izbor posade.
+help_crew_text_pc_move	Desni klik za pomeranje\nizabrane posade.
+help_crew_text_pc_bottom	Posada će sama popravljati sisteme ili\nse boriti sa uljezima u svojoj prostoriji.
+help_crew_text_ipad_select	Dodirni nekoga da ga izabereš\nili dodirni i prevuci da izabereš\nviše članova posade.
+help_crew_text_ipad_move	Dodirni prostoriju da pošalješ\nizabrane članove posade tamo.
+help_crew_text_ipad_bottom	Posada će sama popravljati ili\nse boriti u svojoj prostoriji.
+help_pause_title	PAUZA
+help_pause_text_pc_1	Pritisni razmaknicu za pauzu.
+help_pause_text_pc_2	Komande i naređenja se mogu\nizdavati i tokom pauze.
+help_pause_text_ipad_1	Pritisni dugme Pauza dole\ndesno da pauziraš igru.
+help_pause_text_ipad_2	Komande i naređenja se mogu\nizdavati i tokom pauze.
+help_pause_text_ipad_auto	Igra će se sama pauzirati\nu nekim situacijama (to se može\nisključiti u podešavanjima).
+help_power_title	ENERGIJA
+help_power_text_top	Dodavanje/uklanjanje energije sistemima:
+help_power_text_pc_add	Levi klik za\ndodavanje energije.
+help_power_text_pc_remove	Desni klik za\nuklanjanje energije.
+help_power_text_ipad_1	Prevuci prstom gore/dole da\npovećaš/smanjiš energiju sistema.
+help_power_text_ipad_2	Reaktor mora imati dovoljno\nenergije za napajanje sistema.
+help_weapons_title	ORUŽJE/DRONOVI
+help_weapons_text_top	Kako se puca:
+help_weapons_text_pc_power	Levi klik za\nnapajanje oružja.
+help_weapons_text_pc_activate	Ponovo levi klik\nza aktiviranje.
+help_weapons_text_pc_target	Levi klik na\nneprijateljski brod\nza ciljanje.
+help_weapons_text_pc_bottom1	Levi klik i prevlačenje menja redosled oružja/dronova.
+help_weapons_text_pc_bottom2	Ako je sistem oštećen, prvo se\ngasi stavka najviše desno.
+help_weapons_text_ipad_power	Dodirni\nsistem\noružja.
+help_weapons_text_ipad_activate	Dodirni oružje\nza napajanje i\nponovo za aktiviranje.
+help_weapons_text_ipad_target	Dodirni\nciljanu prostoriju.
+help_weapons_text_ipad_autofire	Dvostruki dodir oružja\nuključuje automatsku\npaljbu za to oružje.
+help_weapons_text_ipad_bottom1	Dodirni i prevuci da\npromeniš redosled oružja/dronova.
+help_weapons_text_ipad_bottom2	Ako je sistem oštećen,\nprvo se gasi\nnajviša stavka.
+help_tap_close	Dodirni ekran za povratak u igru.
+help_customize	Napomena: Ovo je pregled. Mnoge prečice možeš promeniti u meniju Podešavanja.
+no_save_tutorial	Nije moguće sačuvati i izaći tokom obuke
+options_tab	OPCIJE
+options_frame_video	SLIKA
+options_frame_gameplay	IGRA
+options_frame_audio	ZVUK
+on	Uklj.
+off	Isklj.
+disabled	Isključeno
+enabled	Uključeno
+manual_override	Zamenjeno ručnim podešavanjima
+stretch_not_supported	Nije podržano na ovom sistemu
+restart_required	Potreban restart
+restart_required_dialog	Moraćeš ponovo da pokreneš FTL da bi nova podešavanja slike stupila na snagu.
+fullscreen	Ceo ekran: \1
+fullscreen_0	Isklj.
+fullscreen_1	Uklj. (razvučeno)
+fullscreen_2	Uklj. (ivice)
+fullscreen_3	Uklj. (izvorno)
+v_sync	Vertikalna sinhronizacija: \1
+frame_limit	Limit sličica: \1
+dynamic_back	Dinamične pozadine: \1
+colorblind	Režim za daltoniste: \1
+change_language	Promeni jezik
+choose_language	Izaberi jezik:
+language_name	Srpski
+event_choice	Izbor u događajima: \1
+event_choice_disable_hotkeys	Bez prečica
+event_choice_no_delay	Bez odlaganja
+event_choice_brief_delay	Kratko odlaganje
+show_paths	Putanje svetionika pri prelasku: \1
+show_paths_ipad	Putanje svetionika pri dodiru: \1
+achievement_popup	Obaveštenja o dostignućima: \1
+window_focus	Pauza pri gubitku fokusa: \1
+touch_autopause	Auto-pauza pri dodiru: \1
+configure_controls	Podesi prečice na tastaturi
+sound_volume	Jačina zvuka
+music_volume	Jačina muzike
+button_delete_profile	OBRIŠI\nPROFIL
+configure_controls_tab	PODEŠAVANJE KONTROLA
+power_note	Napomena: Shift + taster sistema takođe gasi sistem
+press_key	PRITISNI
+button_defaults	OSNOVNO
+hotkey_crew1	Član posade 1
+hotkey_crew2	Član posade 2
+hotkey_crew3	Član posade 3
+hotkey_crew4	Član posade 4
+hotkey_crew5	Član posade 5
+hotkey_crew6	Član posade 6
+hotkey_crew7	Član posade 7
+hotkey_crew8	Član posade 8
+hotkey_crew_all	Cela posada
+hotkey_loadPositions	Vrati na položaje
+hotkey_savePositions	Sačuvaj položaje
+hotkey_lockdown	Tajna moć vanzemaljca
+hotkey_open	Otvori sva vrata
+hotkey_close	Zatvori sva vrata
+hotkey_activate_cloak	Uključi maskiranje
+hotkey_send_tele	Teleport - slanje
+hotkey_ret_tele	Teleport - povratak
+hotkey_start_hacking	Hakovanje
+hotkey_mindControl	Kontrola uma
+hotkey_activate_battery	Uključi bateriju
+hotkey_drone1	Dron 1
+hotkey_drone2	Dron 2
+hotkey_drone3	Dron 3
+hotkey_weapon1	Oružje 1
+hotkey_weapon2	Oružje 2
+hotkey_weapon3	Oružje 3
+hotkey_weapon4	Oružje 4
+hotkey_autofire	Uklj./isklj. auto-paljbu
+hotkey_force_autofire	Modifikator auto-paljbe (drži + ciljaj)
+hotkey_pause	Pauziraj igru
+hotkey_jump	FTL skok
+hotkey_ship_info	Nadogradnje
+hotkey_ship_inv	Inventar
+hotkey_store	Prodavnica
+hotkey_ship_crew	Spisak posade
+hotkey_options	Opcije
+hotkey_increase_font	Uvećaj font događaja
+hotkey_decrease_font	Smanji font događaja
+hotkey_rightclick	Modifikator DK
+hotkey_shields	Napajanje: štitovi
+hotkey_engines	Napajanje: motori
+hotkey_oxygen	Napajanje: kiseonik
+hotkey_medbay	Napajanje: ambulanta/klonirnica
+hotkey_teleporter	Napajanje: teleporter
+hotkey_cloaking	Napajanje: maskiranje
+hotkey_mind	Napajanje: kontrola uma
+hotkey_hacking	Napajanje: hakovanje
+hotkey_artillery	Napajanje: artiljerija
+hotkey_weapons	Napajanje: oružje
+hotkey_drones	Napajanje: dronovi
+hotkey_un_shields	Gašenje: štitovi
+hotkey_un_engines	Gašenje: motori
+hotkey_un_oxygen	Gašenje: kiseonik
+hotkey_un_medbay	Gašenje: ambulanta/klonirnica
+hotkey_un_teleporter	Gašenje: teleporter
+hotkey_un_cloaking	Gašenje: maskiranje
+hotkey_un_mind	Gašenje: kontrola uma
+hotkey_un_hacking	Gašenje: hakovanje
+hotkey_un_artillery	Gašenje: artiljerija
+hotkey_un_weapons	Gašenje: oružje
+hotkey_un_drones	Gašenje: dronovi
+hotkey_power_1	Napajanje: sistem 1
+hotkey_power_2	Napajanje: sistem 2
+hotkey_power_3	Napajanje: sistem 3
+hotkey_power_4	Napajanje: sistem 4
+hotkey_power_5	Napajanje: sistem 5
+hotkey_power_6	Napajanje: sistem 6
+hotkey_power_7	Napajanje: sistem 7
+hotkey_power_8	Napajanje: sistem 8
+hotkey_un_power_1	Gašenje: sistem 1
+hotkey_un_power_2	Gašenje: sistem 2
+hotkey_un_power_3	Gašenje: sistem 3
+hotkey_un_power_4	Gašenje: sistem 4
+hotkey_un_power_5	Gašenje: sistem 5
+hotkey_un_power_6	Gašenje: sistem 6
+hotkey_un_power_7	Gašenje: sistem 7
+hotkey_un_power_8	Gašenje: sistem 8
+keycap_none	Nijedan
+keycap_down	DOLE
+keycap_left	LEVO
+keycap_right	DESNO
+keycap_leftalt	LEVI ALT
+keycap_leftcontrol	LEVI CTRL
+keycap_leftmeta	LEVI META
+keycap_leftshift	LEVI SHIFT
+keycap_leftsuper	LEVI SUPER
+keycap_rightalt	DESNI ALT
+keycap_rightcontrol	DESNI CTRL
+keycap_rightmeta	DESNI META
+keycap_rightshift	DESNI SHIFT
+keycap_rightsuper	DESNI SUPER
+keycap_space	RAZMAK
+keycap_up	GORE
+stats_shipbest	REK. BRODA
+stats_topscores	REKORDI
+stats_achievements	DOSTIGNUĆA
+stats_stats	PODACI
+stats_ranking	#\1
+defeated_stat	Poraženi brodovi
+beacons_stat	Istraženi svetionici
+scrap_stat	Sakupljen otpad
+crew_stat	Unajmljena posada
+most_defeated_stat	Najviše poraženih brodova
+most_beacons_stat	Najviše svetionika
+most_scrap_stat	Najviše sakupljenog otpada
+most_crew_stat	Najviše unajmljene posade
+total_defeated_stat	Ukupno poraženih brodova
+total_beacons_stat	Ukupno svetionika
+total_scrap_stat	Ukupno otpada
+total_crew_stat	Ukupno unajmljene posade
+crew_evasions	Izbegavanja
+crew_repairs	Popravke
+crew_kills	Ubistva u borbi
+crew_jumps	Preživljeni skokovi
+crew_masteries	Savladane veštine
+most_crew_evasions	Najviše izbegavanja
+most_crew_repairs	Najviše popravki
+most_crew_kills	Najviše ubistava u borbi
+most_crew_jumps	Najviše preživljenih skokova
+most_crew_masteries	Najviše savladanih veština
+records_heading	Rekordi partije:
+crew_heading	Rekordi posade:
+stats_heading	Statistika partije:
+total_heading	Ukupno:
+final_score	Konačni rezultat
+total_games	Ukupno partija
+total_victories	Ukupno pobeda
+progression_heading	Opšti napredak:
+distance_heading	Do samog kraja:
+skill_heading	Podvizi veštine i opreme:
+new_crew	Novo!
+new_achievement	Novo!
+new_score	Novo!
+type_a	Tip A
+type_b	Tip B
+type_c	Tip C
+shipselect_type_suffix	 \1
+victory_ach_title	Pobeda: \1
+victory_ach	Uništi vodeći brod bilo kojim rasporedom broda \1
+quest_ach_title	Misija: \1
+quest_ach	Završi misiju za otključavanje broda \1
+achieved_with	Ostvareno sa: \1 (\2)
+ach_unlocked	Dostignuće otključano!
+layout_unlocked	Raspored otključan!
+ship_unlocked	Brod otključan!
+ach_easy	Otključano na LAKO
+ach_normal	Otključano na NORMALNO
+ach_hard	Otključano na TEŠKO
+victory	Pobeda
+advanced	Napredno
+scorelist_score	REZULTAT  \1
+scorelist_sector	SEKTOR    \1
+gameover_score	REZULTAT: \1
+easy	Lako
+normal	Normalno
+hard	Teško
+new_high	Novi rekord!
+welcome_hangar_pc	Dobrodošao u hangar Federacije!\n\nOvde možeš izabrati brod, dati mu ime i imenovati posadu. Za sada ti je dostupan samo Kestrel, ali igranjem ćeš otključati još brodova.\n\nTežinu možeš promeniti gore desno. Ako si nov, možda je najbolje da prvo probaš Lako.
+welcome_hangar_ipad	Dobrodošao u hangar Federacije!\n\nOvde možeš izabrati brod, dati mu ime i imenovati posadu. Za sada ti je dostupan samo Kestrel, ali igranjem ćeš otključati još brodova.\n\nTežinu možeš promeniti na desnoj strani ekrana. Ako si nov, možda je najbolje da prvo probaš Lako.
+tutorial_list_open	Otključao si novi brod!\n\nKlikni na dugme SPISAK da vidiš svoje brodove i saznaš kako da otključaš još.
+list_tutorial	Ovo je spisak brodova. Ovde vidiš pregled svih svojih dostignuća i napredak u otključavanju svih brodova.
+list_tutorial_2	Novi brod možeš otključati na dva načina:\n\nPronađi i završi posebnu misiju u svetu igre. One često počinju u sektorima 'matičnih svetova'.\n\nIli pobedi u igri prethodnim brodom sa spiska da otključaš sledeći.\n\nPređi mišem preko broda za više detalja!
+list_tutorial_2_demo	Pošto je ovo samo demo verzija FTL-a, ne možeš otključati dodatne brodove. Puna verzija ima 10 brodova, svaki sa više jedinstvenih rasporeda.
+list_tutorial_2_ipad	Novi brod možeš otključati na dva načina:\n\nPronađi i završi posebnu misiju u svetu igre. One često počinju u sektorima 'matičnih svetova'.\n\nIli pobedi u igri prethodnim brodom sa spiska da otključaš sledeći.\n\nDodirni brod za više detalja!
+hangar_frame_ship	BROD
+hangar_frame_layout	RASPORED
+hangar_frame_crew	POSADA
+hangar_achievements_title	Završi 2 za raspored B
+hangar_advanced_title	Sadržaj Advanced Edition
+hangar_advanced_warning	UKLJUČI SADRŽAJ ADVANCED\nEDITION ZA PRISTUP
+start_button	KRENI
+hangar_exit_button	GLAVNI MENI
+easy_button	LAKO
+easy_title	Lak režim
+easy_text	Veće nagrade u otpadu i lakši neprijatelji.
+normal_button	NORMALNO
+normal_title	Normalan režim
+normal_text	Standardne nagrade u otpadu i neprijatelji.\n\nRezultat se uvećava za 25 posto.
+hard_button	TEŠKO
+hard_title	Težak režim
+hard_text	Male nagrade u otpadu i teži neprijatelji.\n\nRezultat se uvećava za 50 posto.
+advanced_on_button	UKLJUČENO
+advanced_on_title	Napredni sadržaj
+advanced_on_text	Novi sistemi, oružja, vanzemaljska rasa i još mnogo toga! Preporučeno za iskusne igrače.
+advanced_on_demo_text	NIJE DOSTUPNO U DEMU
+advanced_off_button	ISKLJUČENO
+advanced_off_title	Osnovni sadržaj
+advanced_off_text	Klasično iskustvo igre Faster Than Light.
+ship_rename_button	PREIMENUJ
+ship_list_button	SPISAK
+ship_random_button	NASUMIČAN BROD
+typebutton_a	A
+typebutton_b	B
+typebutton_c	C
+ship_showrooms_button	PRIKAŽI SOBE
+ship_hiderooms_button	SAKRIJ SOBE
+crewbox_customize	PRILAGODI
+crewbox_rename	PREIMENUJ
+crewbox_accept	PRIHVATI
+shiplist_title	IZABERI SVOJ BROD
+typebutton_type_a	TIP A
+typebutton_type_b	TIP B
+typebutton_type_c	TIP C
+no_type_c	Nema tipa C
+shiplist_accept_button	PRIHVATI
+ship_unlock_victory	Uništi vodeći brod bilo kojim rasporedom broda \1 da otključaš \2
+ship_unlock_sector5	Stigni do petog sektora bilo kojim rasporedom broda \1 da otključaš \2
+alt_unlock	Drugi način: \1
+alt_unlock_victory	Uništi vodeći brod bilo kojim rasporedom broda \1
+alt_unlock_victory_locked	Uništi vodeći brod bilo kojim rasporedom broda \1 (zaključano)
+alt_unlock_crystal	Uništi vodeći brod tipom A i tipom B svakog drugog broda (osim Lanijus krstarice)
+unidentified	Nepoznata krstarica
+status_hull	TRUP
+status_shields	ŠTITOVI
+button_jump	SKOK
+ftl_drive	FTL pogon
+ftl_charging	PUNI SE
+ftl_ready	SPREMAN!
+button_store	RADNJA
+button_options	OPCIJE
+button_pause	PAUZA
+button_autofire	AUTO-PALJBA
+button_autofire_ipad	AUTO\nPALJBA
+button_lockdown	BLOKADA
+weapons_label	ORUŽJE
+drones_label	DRONOVI
+subsystems_label	PODSISTEMI
+door_close_all	ZATVORI\nSVA
+door_open_all	OTVORI\nSVA
+miss	PROMAŠAJ
+resist	OTPOR
+paused	PAUZA
+paused_text	Pritisni \1 za nastavak
+auto_paused	AUTO-PAUZA
+auto_paused_text	Igra će se nastaviti kada se radnja završi
+paused_crew	IZBOR POSADE
+paused_crew_text	Prevuci da izabereš više članova posade
+paused_door	UPRAVLJANJE VRATIMA
+paused_door_text	Dodirni ili prevuci da otvoriš i zatvoriš vrata
+paused_hacking	HAKOVANJE
+paused_hacking_text	Dodirni prostoriju da pošalješ dron za hakovanje
+paused_mind	KONTROLA UMA
+paused_mind_text	Dodirni neprijatelja da ga privremeno preobratiš
+paused_room	IZBOR PROSTORIJE
+paused_room_text	Dodirni prostoriju da izabereš odredište
+paused_targeting	CILJANJE
+paused_targeting_text	Dodirni prostoriju da izabereš metu
+paused_targeting_text_beam	Dodirni i prevuci da izabereš zonu gađanja
+paused_teleport	TELEPORTOVANJE
+paused_teleport_text_in	Dodirni prostoriju neprijateljskog broda da vratiš posadu iz nje
+paused_teleport_text_out	Dodirni prostoriju neprijateljskog broda da pošalješ abordažni tim
+warning_warning	UPOZORENJE!
+warning_in_danger	U OPASNOSTI
+warning_environment_danger	OPASNOST!
+warning_pds_allies	SAVEZNICI!
+warning_solar_flare	SUNČEVA\nBAKLJA!
+warning_ion_pulse	JONSKI\nIMPULS!
+warning_pds_locked	ASB CILJ\nZAKLJUČAN!
+warning_power_surge	OTKRIVEN\nSKOK NAPONA
+warning_oxygen	MALO O2!
+warning_clone_off_1	KLONIRNICA ISKLJ.
+warning_clone_off_2	POSADA UMIRE!
+warning_engine	MOTORI KRITIČNO
+warning_hull_75	TRUP NA 75%
+warning_hull_50	TRUP NA 50%
+warning_hull_25	TRUP KRITIČNO
+warning_shields	ŠTITOVI KRITIČNO
+warning_intruders	OTKRIVENI\nULJEZI
+warning_no_missiles	NEMA RAKETA
+warning_no_drones	NEMA DRONOVA
+warning_no_enemy_ship	NEMA\nNEPRIJ.\nBRODA
+warning_no_power	NEMA\nDOVOLJNO\nENERGIJE
+warning_no_power_ipad	ENERGIJE\nJE\nPREMALO
+warning_system_broken	SISTEM\nUNIŠTEN
+warning_needs_upgrade	POTREBNA\nNADOGRADNJA\nSISTEMA
+warning_no_system_power	MALO ENERGIJE\nSISTEMA
+warning_super_shield_mind	SUPER\nŠTITOVI\nBLOKIRAJU\nKONTROLU UMA
+warning_super_shield_hacking	SUPER\nŠTITOVI\nSPREČAVAJU\nHAKOVANJE
+warning_super_shield_teleporter	SUPER\nŠTITOVI\nSPREČAVAJU\nTELEPORT
+warning_ftl_charging	NEPRIJ. FTL SE PUNI
+warning_ftl_charging_ipad	FTL\nSE PUNI
+warning_ftl_delayed	NEPRIJ. FTL ODLOŽEN
+warning_ftl_delayed_ipad	FTL\nODLOŽEN
+warning_ftl_imminent	SKOK NEPOSREDNO
+warning_ftl_imminent_ipad	FTL\nSKOK\nNEPOSREDNO
+warning_boss_jump	VODEĆI BROD\nSKAČE
+target_window	META
+combat_class	Klasa: \1
+combat_relationship	Odnos: \1
+neutral	Neutralan
+hostile	Neprijatelj
+engines_hacked	Motori hakovani
+pilot_hacked	Pilot hakovan
+current_evasion	Trenutno izbegavanje: \1
+oxygen_hacked	Kiseonik hakovan
+current_oxygen	Trenutni kiseonik: \1
+ion_intruder	Jonski uljez
+crew_repair_drone	Dron za popravke
+anti_person_drone	Protivpešadijski dron
+boarder_drone	Abordažni dron
+hacking_tooltip	Ne može se gađati. Dron za hakovanje.
+repair_tooltip	Ne može se gađati. Dron za popravku broda.
+boarding_tooltip	Ne može se gađati. Abordažni dron.
+shield_tooltip	Ne može se gađati. Pojačivač štita.
+combat_friendly	Tvoj borbeni dron:\nStalno napada neprijateljski brod. Radi dok ne bude uništen ili dok ne skočiš dalje.
+combat_enemy	Neprijateljski borbeni dron:\nStalno napada tvoj brod. Može se ugasiti oštećivanjem sistema dronova na neprijateljskom brodu.
+defense_friendly	Tvoj odbrambeni dron:\nObara rakete i asteroide. Radi dok ne bude uništen ili dok ne skočiš dalje.
+defense_enemy	Odbrambeni dron:\nObara rakete i asteroide. Može se ugasiti oštećivanjem sistema dronova na neprijateljskom brodu.
+defense_2_friendly	Tvoj odbrambeni dron Mk II:\nObara sve projektile. Radi dok ne bude uništen ili dok ne skočiš dalje.
+defense_2_enemy	Odbrambeni dron Mk II:\nObara sve projektile. Može se ugasiti oštećivanjem sistema dronova na neprijateljskom brodu.
+anti_combat_friendly	Tvoj protivborbeni dron:\nPuca da omami i možda uništi neprijateljske borbene dronove. Radi dok ne bude uništen ili dok ne skočiš dalje.
+anti_combat_enemy	Neprijateljski protivborbeni dron:\nPuca da omami i možda uništi tvoje borbene dronove. Može se ugasiti oštećivanjem sistema dronova na neprijateljskom brodu.
+map_title	MAPA SVETIONIKA
+map_sector	SEKTOR
+map_icon_base	BAZA
+map_icon_distress	POMOĆ
+map_icon_exit	IZLAZ
+map_icon_quest	MISIJA
+map_icon_repair	POPRAVKA
+map_icon_store	RADNJA
+button_nextsector	SLEDEĆI SEKTOR
+button_wait	ČEKAJ
+map_distress_beacon	SIGNAL ZA\nPOMOĆ
+button_distress_off	ISKLJ.
+button_distress_on	UKLJ.
+map_nofuel	NEMA GORIVA
+map_waiting	Čekanje...
+sector_title	MAPA SEKTORA
+sector_legend_civilian	Civilni
+sector_legend_hostile	Opasni
+sector_legend_nebula	Maglina
+sector_civilian	Neidentifikovan civilni sektor
+sector_hostile	Neidentifikovan neprijateljski sektor
+sector_nebula	Neidentifikovan sektor magline
+sector_unknown	Neidentifikovan sektor
+boss_jumps	Poteza do uništenja baze
+pc_boss	Vodeći brod će uništiti bazu Federacije ako tamo provede tri uzastopna poteza.\n\nCrvena rotirajuća ikona vodećeg broda pokazuje njegov položaj. Kada je linija skoka od broda puna, on će u tom potezu skočiti do označenog svetionika.\n\nStanice za popravku delimično popravljaju besplatno.
+ipad_boss	Vodeći brod će uništiti bazu Federacije ako tamo provede tri uzastopna poteza. Crvena rotirajuća ikona vodećeg broda pokazuje njegov položaj. Kada je linija skoka od broda puna, on će u tom potezu skočiti do označenog svetionika. Stanice za popravku delimično popravljaju besplatno.
+final_sector_wait	Čekaj na trenutnoj lokaciji.
+map_current_loc	Tvoja trenutna lokacija.
+map_boss_loc	Pobunjenički vodeći brod
+map_base_loc	Ovo je baza Federacije.
+map_exit_loc	Ovo je izlazni svetionik. Idi ovde da pređeš u sledeći sektor.
+map_rebels_loc	Pobunjenici samo što nisu preuzeli kontrolu nad ovim svetionikom!
+map_store_loc	Ovde si ranije pronašao prodavnicu.
+map_repair_loc	Stanica za popravke Federacije. Popravlja trup i daje zalihe.
+map_fleet_loc	Pobunjenici kontrolišu ovu lokaciju. Veoma opasno.
+map_hostile_loc	Na ovoj lokaciji je ostao neprijatelj.
+map_nothing_loc	Istražena lokacija. Ništa zanimljivo nije ostalo.
+map_distress_loc	Signal za pomoć. Nekome je možda potrebna pomoć.
+map_ship_loc	Neposećeno. Moguće prisustvo broda.
+map_quest_loc	Neposećeno. Odredište misije.
+map_merchant_loc	Neposećeno. Prijavljena lokacija trgovca.
+map_unvisited_loc	Neposećena lokacija.
+map_nebula_fleet_loc	Pobunjenička flota je bila spremna na maglinu u ovom sektoru, pa ona neće biti tako dobro skrovište.
+map_nebula_loc	Maglina ovde usporava potragu flote, ali ometa tvoje senzore.
+map_asteroid_loc	Na ovoj lokaciji je otkriveno asteroidno polje.
+map_sun_loc	Koordinate svetionika su izgleda veoma blizu obližnjeg sunca.
+map_ion_loc	U ovom delu magline besni jonska oluja.
+map_pulsar_loc	Pulsar preplavljuje ovu oblast opasnim elektromagnetnim silama.
+map_pds_fleet	Na ovoj lokaciji će te gađati protivbrodske baterije flote.
+map_pds_loc	U ovom sistemu su otkrivene planetarne protivbrodske baterije.
+upgrade_frame_systems	SISTEMI
+upgrade_frame_subsystems	PODSISTEMI
+upgrade_frame_reactor	REAKTOR
+button_accept	PRIHVATI
+button_undo	PONIŠTI
+button_upgrade	NADOGRADI
+upgrade_max	MAKS
+upgrade_reactor_power	\1 CRTICA ENERGIJE
+crewbox_dismiss	OTPUSTI
+rename_note	Napomena: Klikni na ime člana posade da ga promeniš.
+equipment_frame_weapons	ORUŽJE
+equipment_frame_drones	DRONOVI
+equipment_frame_cargo	TERET
+equipment_frame_augments	AUGMENTACIJE
+equipment_no_system	SISTEM NIJE UGRAĐEN
+dismiss_box_title	OTPUŠTANJE
+dismiss_box_text	Prevuci člana\nposade u\novo polje da\nga otpustiš.
+overcapacity_crew_title	PREKO\nKAPACITETA
+overcapacity_crew_text	Moraš otpustiti\nčlana posade\nda nastaviš.
+overcapacity_item_title	PREKO\nKAPACITETA
+overcapacity_item_text1	Ovaj predmet će\nostati ovde\nkada skočiš.
+overcapacity_item_text2	Prevuci i spusti\nda zameniš predmete.
+overcapacity_aug_title	PREKO\nKAPACITETA
+overcapacity_aug_text1	Ova augmentacija\nće ostati ovde\nkada skočiš.
+overcapacity_aug_text2	Prevuci i spusti\nda zameniš augmentacije.
+store_tab_buy	KUPI
+store_tab_sell	PRODAJ
+store_tab_page1	STRANA 1
+store_tab_page2	STRANA 2
+store_title_items	PREDMETI
+store_title_repair	POPRAVKA
+store_title_augments	AUGMENTACIJE
+store_title_crew	POSADA
+store_title_drones	DRONOVI
+store_title_systems	SISTEMI
+store_title_weapons	ORUŽJE
+store_current_hull	TRENUTNI\nTRUP
+button_buy	KUPI
+button_sell	PRODAJ
+repair_all_button	POTPUNO
+repair_all_title	Popravka celog trupa
+repair_all_desc	Plati popravku koja vraća trup na maksimum.
+repair_one_button	POPRAVI 1
+repair_one_title	Delimična popravka trupa
+repair_one_desc	Plati popravku koja vraća jedan poen trupa.
+repair_max	MAKS
+sell_box_title	PRODAJA
+sell_box_text	Prevuci opremu\nili augmentacije\nu ovo polje\nda ih prodaš.
+sell_value	PRODAJNA CENA
+max_augments	Tvoj brod može imati samo 3 augmentacije.
+have_augment	Već imaš ovu augmentaciju, a njeni efekti se ne sabiraju.
+max_crew	Tvoj brod je pun i ne može primiti više članova posade!
+max_drones	Teretni prostor je pun i ne može primiti više dronova!
+max_weapons	Teretni prostor je pun i ne može primiti više oružja!
+system_drones	Napaja dronove broda.
+free_drone	Uz kupovinu dobijaš besplatno: \1
+sys_full	Dostigao si ograničenje sistema
+artillery_1	Punjenje 50 sekundi
+artillery_2	Punjenje 40 sekundi
+artillery_3	Punjenje 30 sekundi
+artillery_4	Punjenje 20 sekundi
+door_1	Obična vrata
+door_2	Blindirana vrata
+door_3	Bolja blindirana vrata
+door_4	Super blind. vrata
+pilot_1	Potreban pilot za rad
+pilot_2	Auto: 50 posto izbegavanja
+pilot_3	Auto: 80 posto izbegavanja
+sensor_1	Unutrašnjost broda
+sensor_2	Unutrašnjost neprij.
+sensor_3	Punjenje neprij. oružja
+sensor_4	Neprij. potrošnja energije
+cloak	Maskiranje: \1 sekundi
+teleporter_on	Punjenje \1 sek.
+engine	Izbeg.: \1 / FTL: \2x
+medbay_healing	Pojačano lečenje: \1x
+system_power	Više energije sistema
+oxygen_on	Brže punjenje O2: \1x
+shields_0	Jedna barijera štita
+shields_1	Dve barijere štita
+shields_2	Tri barijere štita
+shields_3	Četiri barijere štita
+hacking_duration	Ometanje \1 sekundi
+mind_1	Kontrola uma jedne osobe
+mind_2	Pojačava zdravlje i štetu
+mind_3	Jače pojačanje
+battery_power	Daje \1 dodatne energije
+clone	Kloniranje \1 sek.
+clone_full	Kloniranje \1 sek. + \2 HP/skok
+upgrade_reactor	Reaktor
+reactor_desc	Napaja sve sisteme broda. Svaka crtica energije omogućava da pošalješ jednu jedinicu energije nekom sistemu. Podsistemima nije potrebna energija iz reaktora.
+reactor_desc_short	Napaja sve sisteme broda.
+weak_warning	Slab sistem - potrebno više otpada za prve nadogradnje
+nano_warning	Napomena: Za rad je potrebna napajana ambulanta.
+level	Nivo \1: \2
+manning_bonus	Posada: \1
+status	Stanje:
+subsystem_manned	+1 nivo sistema
+full_powered	Potpuno napajan
+full_functional	Potpuno ispravan
+partial_powered	Delimično napajan
+partial_functional	Delimično ispravan
+unpowered	Bez napajanja
+unmanned	Bez posade
+zoltan	Zoltanska dodatna energija
+zoltan_rearrange_weapon	Zoltanska dodatna energija: uvek napaja oružje na prvom mestu, klikni i prevuci da promeniš redosled
+zoltan_rearrange_drone	Zoltanska dodatna energija: uvek napaja dron na prvom mestu, klikni i prevuci da promeniš redosled
+destroyed	Uništen
+damaged	Oštećen
+temp_disabled	Privremeno onesposobljen od strane neprijatelja ili lokacije
+ioned	Blokiran jonskim efektom
+on_fire	Gori
+sabotaged	Sabotiran
+add_power	Dodaj energiju: \1
+remove_power	Ukloni energiju: \1
+remove_power_alt	Ukloni energiju: Shift + \1
+hacked	Hakovan: privremeno ometan, a vrata su zaključana
+artillery_off	ISKLJ.: Zrak se ne puni
+doors_off	ISKLJ.: Nema upravljanja vratima
+pilot_off	ISKLJ.: NEMA IZBEGAVANJA!
+sensors_off	ISKLJ.: Ograničen vid
+engine_off	ISKLJ.: NEMA IZBEGAVANJA!
+medbay_off	ISKLJ.: Posada se ne leči
+weapons_off	ISKLJ.: Oružje nedostupno
+drones_off	ISKLJ.: Dronovi ne rade
+oxygen_off	ISKLJ.: KISEONIK NESTAJE!
+clone_off	ISKLJ.: Mrtvi zauvek ostaju mrtvi
+shields_off	ISKLJ.: ŠTITOVI PALI!
+clonebay_health	Leči svu posadu za \1 HP pri svakom skoku.
+clonebay_damaged	 (Kad se popravi, lečiće više)
+pilot_skill	Izbegavanje +\1
+engine_skill	Izbegavanje +\1
+shield_skill	\1% brže obnavljanje
+weapon_skill	\1% brže punjenje
+combat_0	Povećava štetu posade
+combat_skilled	\1% više štete posade
+repair_0	Povećava brzinu popravke
+repair_skilled	\1% brža popravka
+health	Zdravlje: \1/\2
+cloning	Kloniranje...
+power_ready	Spremno: Klikni da blokiraš prostoriju posebnom moći\nPrečica: \1
+power_not_ready	Nije spremno: Moć blokade se puni (vidi punjenje levo od portreta)
+pilot_skill_tooltip	Pilotiranje:\n\1
+engines_skill_tooltip	Motori:\n\1
+shields_skill_tooltip	Štitovi:\n\1
+weapons_skill_tooltip	Oružje:\n\1
+combat_skill_tooltip	Borba:\n\1
+repair_skill_tooltip	Popravka:\n\1
+next_level	Sledeći nivo: \1/\2
+crew_skills	Veštine posade
+pilot_skill_infobox	\1 u pilotiranju.
+engines_skill_infobox	\1 u motorima.
+shields_skill_infobox	\1 u štitovima.
+weapons_skill_infobox	\1 u oružju.
+combat_skill_infobox	\1
+repair_skill_infobox	\1
+required_power	Potrebna energija: \1
+boost_power_speed	Lančana moć: brže punjenje
+boost_power_damage	Lančana moć: veća šteta
+damage_cap	Maks. lančana šteta: \1
+speed_cap	Maks. lančano punjenje: \1 sekundi
+charge_time	Vreme punjenja: \1 sekundi
+requires_missiles	Potrebna raketa
+shots	Hitaca po punjenju: \1
+charge	Maks. napunjenih hitaca: \1
+damage_shot	Obična šteta: \1
+damage_room	Šteta po pogođenoj sobi: \1
+shield_piercing	Probijanje štita: \1
+fire_chance	Šansa za požar: \1
+breach_chance	Šansa za proboj: \1
+stun_chance	Šansa za omamljivanje: \1
+ion_damage	Jonska šteta: \1
+stun_damage	Omamljivanje: \1 sek.
+personnel_damage	Šteta posadi: \1
+system_damage	Šteta sistemu: \1
+double_damage	2x šteta u sobama bez sistema.
+chance_of	Mogući efekat: \1
+chance_of_separator	, 
+chance_of_fire	Požar
+chance_of_breach	Proboj
+chance_of_stun	Omamljivanje
+chance_low	Mala
+chance_medium	Srednja
+chance_high	Velika
+type_desc	Tip: \1\n\2
+type_beam	Zrak
+type_bomb	Teleportujuća bomba
+type_laser	Laser
+type_laser_chain	Lančani laser
+type_laser_charge	Laser sa punjenjem
+type_missile	Raketa
+type_crystal	Fizički projektil
+type_burst	Šrapnel
+type_burst_chain	Lančani šrapnel
+type_burst_charge	Šrapnel s punjenjem
+type_ion	Jonski
+type_ion_chain	Lančani jonski
+type_ion_charge	Jonski sa punjenjem
+type_ion_effect	Prazni i blokira sisteme
+type_missile_effect	Ignoriše štitove\nPotrebna raketa
+type_bomb_effect	Ignoriše štitove
+type_burst_effect	Ciljanje po površini
+type_charge_effect	Višestruko punjenje
+type_chain_effect	Jača sa uzastopnim hicima
+drone_required	Za lansiranje je potreban deo za dronove
+tip_drone_generic	Savet: Za aktiviranje troši jedan deo za dronove, a zatim stalno troši energiju (kao oružje).
+tip_drone_warning	Upozorenje: Nemaš sistem dronova. Možeš ga kupiti u prodavnici.
+tip_drone_drag	Savet: Trenutno u teretu. Prevuci ga na slobodno mesto u sistemu dronova da ga opremiš.
+tip_weapon_drag	Savet: Trenutno u teretu. Prevuci ga na slobodno mesto u sistemu oružja da ga opremiš.
+tip_beams	Savet: Svaka crtica neprijateljskog štita smanjuje štetu zraka za jedan. Na primer, zrak od tri štete protiv dve crtice štita naneće jednu štetu u svakoj sobi koju pogodi.
+tip_missiles	Savet: Rakete ignorišu sve neprijateljske štitove, ali svako lansiranje troši jednu raketu. Neprijateljski odbrambeni dronovi obaraju rakete.
+tip_bombs	Savet: Bombe se teleportuju pored štitova i odbrambenih dronova pravo na brod. Kao i rakete, svako lansiranje troši jednu raketu. Nikad ne oštećuju trup, ali dobro ometaju posadu i sisteme. Možeš ih lansirati i na uljeze na svom brodu.
+tip_ion	Savet: Svaki poen jonske štete uklanja jednu crticu energije iz ciljanog sistema i blokira ga na 5 sekundi, sprečavajući ponovno napajanje. Ako jonsko oružje pogodi štit, šteta se automatski prenosi na sistem štitova.
+tip_laser	Savet: Svaki hitac lasera zaustavlja jedan sloj štita, bez obzira na štetu lasera.
+tip_hull	Savet: Oružja za trup nanose dvostruku štetu ako pogode sobu bez sistema ili podsistema.
+tip_charge	Savet: Oružja sa punjenjem mogu se puniti više puta za veću vatrenu moć. Možeš uštedeti vreme i opaliti ranije, ali ćeš imati manje spremnih hitaca.
+tip_chain_laser	Savet: Lančani laseri skraćuju vreme punjenja svaki put kad opale. Zelena svetla na oružju pokazuju koliko je puta opalilo.
+tip_chain_ion	Savet: Lančani jonski top povećava štetu svaki put kad opali. Zelena svetla na oružju pokazuju koliko je puta opalio.
+tip_flak	Savet: Flak oružja gađaju oblast umesto jedne sobe. Zbog manje preciznosti imaju više vatrene moći i brzine od lasera.
+tip_crystal	Savet: Kristalna oružja probijaju jedan sloj štita. Zaustavljaju ih samo štitovi nivoa 2 i viši.
+tip_combat	Savet: Borbeni dronovi troše 1 deo za dronove za svakog novog neprijatelja. Napadaju neprijatelja dok god su napajani.
+tip_defense	Savet: Odbrambeni dronovi troše 1 deo za dronove na svakoj novoj lokaciji. Brane tvoj brod dok god su napajani.
+tip_boarding	Savet: Abordažni dronovi troše 1 deo za dronove za svakog novog neprijatelja. Ukrcavaju se na neprijateljski brod i napadaju dok god su napajani.
+tip_crew	Savet: Dronovi posade troše 1 deo za lansiranje, ali ih ne treba ponovo lansirati dok ne budu uništeni. Ostaju na brodu i pomažu posadi dok god su napajani.
+tip_repair_bomb	Savet: Bombe nikad ne promašuju kad gađaš svoj brod, pa ova bomba garantovano potpuno popravlja bilo koji tvoj sistem.
+tip_heal_bomb	Savet: Zapamti, bombe mogu promašiti neprijateljski brod, pa ne računaj na sigurno lečenje svojih abordažera!
+tip_fire_beam	Savet: Ovaj vatreni zrak ne oštećuje trup, pa ne može probiti nijedan štit.
+tip_crew_beam	Savet: Ovaj protivbiološki zrak ne oštećuje trup, pa ne može probiti nijedan štit. Ne škodi ni dronovima!
+hack_potential	Daje sposobnost ometanja: \1
+hack_activate	Pokreće ometanje: \1
+hack_no_system	Ništa, hakuj sistem.
+hack_oxygen	Privremeno prazni kiseonik na neprijateljskom brodu.
+hack_doors	Privremeno pretvara sva neprijateljska vrata u blindirana vrata naklonjena tebi.
+hack_shields	Privremeno crpi energiju iz neprijateljskih štitova.
+hack_pilot	Privremeno smanjuje izbegavanje neprijateljskog broda na 0.
+hack_engines	Privremeno smanjuje izbegavanje neprijateljskog broda na 0.
+hack_sensors	Privremeno gasi neprijateljske senzore.
+hack_medbay	Privremeno tera ambulantu da povređuje umesto da leči neprijateljsku posadu.
+hack_weapons	Privremeno prazni punjenje neprijateljskog oružja.
+hack_drones	Privremeno zamrzava neprijateljske dronove, uz šansu da ih uništi.
+hack_teleporter	Privremeno preuzima neprijateljski teleporter i vraća posadu na neprijateljski brod.
+hack_cloaking	Privremeno onemogućava neprijatelju maskiranje.
+hack_artillery	Privremeno poništava punjenje neprijateljske artiljerije.
+hack_battery	Privremeno smanjuje energiju neprijateljskog reaktora za dva.
+hack_clonebay	Privremeno gasi klonirnicu, pa potencijalni klonovi umiru.
+hack_mind	Oslobađa sve trenutno kontrolisane osobe i privremeno preuzima kontrolu nad umom neprijatelja.
+hack_hacking	Privremeno prekida i gasi neprijateljsko hakovanje.
+hack_oxygen_player	SISTEM HAKOVAN: KISEONIK BRZO NESTAJE.
+hack_doors_player	SISTEM HAKOVAN: VRATA OMETAJU KRETANJE POSADE.
+hack_shields_player	SISTEM HAKOVAN: ŠTITOVI GUBE ENERGIJU.
+hack_pilot_player	SISTEM HAKOVAN: IZBEGAVANJE PALO NA 0.
+hack_engines_player	SISTEM HAKOVAN: IZBEGAVANJE PALO NA 0.
+hack_sensors_player	SISTEM HAKOVAN: SENZORI NE RADE.
+hack_medbay_player	SISTEM HAKOVAN: AMBULANTA POVREĐUJE POSADU!
+hack_weapons_player	SISTEM HAKOVAN: ORUŽJE GUBI PUNJENJE.
+hack_drones_player	SISTEM HAKOVAN: DRONOVI OMAMLJENI, MOGU EKSPLODIRATI.
+hack_teleporter_player	SISTEM HAKOVAN: POSADA PRISILNO TELEPORTOVANA NAZAD.
+hack_cloaking_player	SISTEM HAKOVAN: MASKIRANJE PREKINUTO.
+hack_artillery_player	SISTEM HAKOVAN: ARTILJERIJA BRZO GUBI PUNJENJE.
+hack_battery_player	SISTEM HAKOVAN: ENERGIJA REAKTORA SMANJENA ZA 2.
+hack_clonebay_player	SISTEM HAKOVAN: KLONIRANJE NEMOGUĆE, POSADA MOŽE UMRETI!
+hack_mind_player	SISTEM HAKOVAN: SAVEZNIK POD TUĐOM KONTROLOM!
+hack_hacking_player	SISTEM HAKOVAN: HAKOVANJE PRIVREMENO PREKINUTO
+distraction	Postavljaš plutače za odvlačenje pažnje i dobijaš više vremena za istraživanje sektora pre nego što te flota sustigne.
+added_quest	Na mapu je dodata oznaka misije!
+no_time	Gledajući mapu, shvataš da jednostavno nemaš vremena i da moraš stići do baze Federacije! Misija će morati da sačeka.
+added_quest_sector	Oznaka misije je dodata u sledeći sektor!
+circle_ship	Čestitamo, stigavši do 5. sektora otključao si Engi brod za buduće partije!
+intruder_energy	Mora da imaju uređaj za zaobilaženje super štita - uljezi su na brodu!
+event_crew_full	 [Upozorenje: Moraćeš da otpustiš člana posade, brod je već pun.]
+unlock_ship_1	Tajna Engi tehnologija je dostavljena u hangar. Nevidljivi brod je otključan!
+unlock_ship_2	Krstarica Bogomoljki je otključana i dodata u hangar!
+unlock_ship_4	Krstarica Federacije je otključana i dodata u hangar!
+unlock_ship_5	Krstarica Puževa je otključana i dodata u hangar!
+unlock_ship_6	Kamenjaci su dostavili krstaricu u hangar. Bulwark je otključan!
+unlock_ship_7	Zoltanska krstarica je otključana i dodata u hangar!
+unlock_ship_8	Kristalni brod je poslat u hangar. Bravais je otključan!
+augment	Augmentacija:
+upgrade_success	Nadograđeno: \1 (+\2)
+upgrade_fail_max	Nadogradnja nije moguća (\1 je na maksimumu)
+upgrade_fail_missing	Nadogradnja nije moguća (\1 ne postoji)
+oxygen	Sistem kiseonika
+doors	Vrata
+shields	Štitovi
+pilot	Pilotiranje
+engines	Motori
+sensors	Senzori
+medbay	Ambulanta
+weapons	Oružje
+drones	Sistem dronova
+teleporter	Teleporter
+cloaking	Maskiranje
+artillery	Artiljerija
+battery	Rezervna baterija
+clonebay	Klonirnica
+mind	Kontrola uma
+hacking	Sistem za hakovanje
+reactor	Reaktor
+oxygen_installed	Sistem kiseonika ugrađen
+doors_installed	Podsistem vrata ugrađen
+shields_installed	Sistem štitova ugrađen
+pilot_installed	Podsistem pilotiranja ugrađen
+engines_installed	Motori ugrađeni
+sensors_installed	Podsistem senzora ugrađen
+medbay_installed	Ambulanta ugrađena
+weapons_installed	Sistem oružja ugrađen
+drones_installed	Sistem dronova ugrađen
+teleporter_installed	Teleporter ugrađen
+cloaking_installed	Sistem maskiranja ugrađen
+artillery_installed	Artiljerija ugrađena
+battery_installed	Rezervna baterija ugrađena
+clonebay_installed	Klonirnica ugrađena
+mind_installed	Sistem kontrole uma ugrađen
+hacking_installed	Sistem za hakovanje ugrađen
+reactor_installed	Reaktor ugrađen
+new_system_last	Upozorenje: Ako dodaš novi sistem, brod će biti pun i neće moći da primi više.
+new_system_penultimate	Upozorenje: Ako dodaš novi sistem, ostaće ti još 1 mesto za sistem.
+new_system_update	Upozorenje: Ako dodaš novi sistem, ostaće ti još \1 mesta za sisteme.
+new_system_clonebay	Upozorenje: Prihvatanjem klonirnice zamenićeš ambulantu.
+new_system_medbay	Upozorenje: Prihvatanjem ambulante zamenićeš klonirnicu.
+new_system_full	Upozorenje: Ne možeš imati više sistema.
+new_system_owned	Upozorenje: Već imaš ponuđeni sistem.
+dead_crew	Izgubljen: \1
+traitor_crew	\1 je sada neprijatelj
+intruder_alert	Uljezi na brodu
+item_removed	Predmet uklonjen: \1
+damage_alert	Šteta na trupu: \1
+heal_alert	Popravljeno poena trupa: \1
+heal_1_alert	Popravljen 1 poen trupa
+fleet_delayed	Flota usporena za \1 skoka
+fleet_delayed_1	Flota usporena za 1 skok
+fleet_speed	Potera flote dvostruko brža \1 skoka
+fleet_speed_1	Potera flote dvostruko brža 1 skok
+gameover_title_gameover	KRAJ IGRE
+gameover_title_victory	POBEDA!
+gameover_button_stats	STATISTIKA
+gameover_button_restart	IZNOVA
+gameover_button_hangar	HANGAR
+gameover_button_mainmenu	GLAVNI MENI
+gameover_button_quit	IZLAZ
+gameover_win	Čestitamo! Uništio si pobunjenički vodeći brod i obezbedio pobedu Federacije!
+gameover_win_demo	Čestitamo! Porazio si 'Nemogućeg pirata' i završio demo!
+gameover_crew	Svi članovi posade su mrtvi. Tvoj brod će plutati zauvek. Ili dok ga pljačkaši ne unište.
+gameover_blowup	Poslednja eksplozija zapečaćuje tvoju sudbinu dok se brod raspada.
+gameover_fedbase	Pobunjenički vodeći brod je uništio bazu Federacije. Sve je izgubljeno, pobedili su.
+gameover_tutorial	Nekako si poginuo tokom uvodne obuke. Slobodno pokušaj ponovo, ali ovo ne sluti na dobro za tvoju misiju.
+crewlist_comma	, 
+crewlist_and	 i 
+thank_ship	Zahvaljujući hrabrom trudu broda:
+thank_crew	I njegove uspešne posade:
+credit_victory	Pobunjenički vodeći brod je uništen, njihova flota je u haosu, a pobeda Federacije je obezbeđena
+game_from	Igra studija:
+created_by	Autori:
+addition_code	Dodatno programiranje:
+music_by	Muzika i zvuk:
+writing_by	Tekstovi:
+guest_writer	Specijalni gost-pisac za Advanced Edition:
+additional_art	Dodatna grafika i dizajn:
+editing	Dodatna redakcija i dizajn:
+additional_testing	Dodatno testiranje, saveti i neprocenjiva podrška:
+family_friends	Alison, Maria, Bryan, Matthieu, Collin, Anton, Ethan, Andy, Xia Tai Yi, naši roditelji i mnogi drugi
+credits_loc_riotloc	Lokalizacija: Riotloc
+credits_loc_project	Koordinacija projekta
+credits_loc_fr	Francuska verzija
+credits_loc_it	Italijanska verzija
+credits_loc_de	Nemačka verzija
+credits_loc_es	Španska verzija
+credits_loc_pl	Srpski prevod (nezvanični)
+credits_loc_pl_names	Milan Janković
+credits_loc_pt_BR	Brazilska portugalska verzija
+credits_loc_ru	Ruska verzija
+credits_loc_ja	Japanska lokalizacija:
+kickstarter	Hvala svim našim izuzetno velikodušnim podržavaocima na Kickstarteru, a posebno:
+third_party	FTL koristi sledeće biblioteke trećih strana
+folder	(Za više detalja pogledaj priloženu fasciklu sa licencama ili readme)
+font_halflife	Fontovi 'Half-Life 1 + 2' korišćeni uz dozvolu freakyfonts.de
+font_dotgothic	Font 'DotGothic' korišćen pod licencom kompanije Fontworks Inc.
+touch_skip	Drži prst na ekranu da preskočiš odjavnu špicu.
+autofire_tooltip_on	Auto-paljba uključena. Oružje podrazumevano nastavlja da gađa metu.\n\nDodirni dvaput pri naoružavanju oružja da promeniš njegov režim.
+autofire_tooltip_off	Auto-paljba isključena. Oružje gađa metu samo jednom.\n\nDodirni dvaput pri naoružavanju oružja da promeniš njegov režim.
+health_tooltip	Zdravlje: \1/\2
+death_tooltip	Umire
+save_stations_tooltip	Sačuvaj trenutne položaje posade\nPrečica: \1
+ret_stations_tooltip	Vrati posadu na sačuvane položaje\nPrečica: \1
+ship_info	Otvara ekrane sa podacima o brodu. Nedostupno dok je brod u opasnosti.\nPrečica: \1
+open_store	Ponovo otvara prodavnicu na tvojoj lokaciji.\nPrečica: \1
+open_options	Otvara meni podešavanja
+mind_controlled_tooltip	Pod kontrolom uma
+rearrange	Klikni i prevuci da promeniš redosled
+hotkey	Prečica: \1
+jump_button	Otvara zvezdanu mapu za izbor odredišta skoka.\nPrečica: \1
+activate_battery	Uključuje rezervnu bateriju koja daje dodatne crtice energije reaktora\nPrečica: \1
+mind_button	Privremeno pretvara neprijatelje u saveznike.\nPrečica: \1
+hack_button	Lansira dron za hakovanje; troši 1 deo za dronove.\nPrečica: \1
+pulse_button_broken	Sistem se ne može ometati dok je uništen
+open_doors	Otvara sva vrata na brodu.\nPrečica: \1
+close_doors	Zatvara sva vrata na brodu.\nPrečica: \1
+tele_ret	Vraća posadu iz ciljane neprijateljske sobe u tvoju sobu teleportera.\nPrečica: \1
+tele_send	Šalje posadu iz tvoje sobe teleportera u ciljanu neprijateljsku sobu.\nPrečica: \1
+cloak_button	Privremeno maskira brod, zaustavlja punjenje neprijateljskog oružja i povećava izbegavanje za 60\nPrečica: \1
+powered_deployed	Lansiran (napajan): aktivan i obavlja svoju funkciju.
+unpowered_deployed	Lansiran (bez napajanja): neaktivan, ali se može ponovo napajati bez trošenja dela za dronove.
+undeployed	Nije lansiran: troši jedan deo za dronove pri prvom napajanju.
+rebuilding	Dron se obnavlja nakon neočekivanog uništenja.
+weapon_autofire_off	Dodirni jednom za naoružavanje. Dodirni dvaput za naoružavanje i neprekidnu auto-paljbu.
+weapon_autofire_on	Dodirni jednom za naoružavanje sa auto-paljbom. Dodirni dvaput za jedan hitac bez auto-paljbe.
+confirm_yes	DA
+confirm_no	NE
+confirm_buy_clonebay	Da li si siguran?\nKlonirnica će zameniti ambulantu.
+confirm_buy_last_system	Ovo je poslednje mesto za sistem na brodu.\nDa li si siguran?
+confirm_buy_medbay	Da li si siguran?\nAmbulanta će zameniti klonirnicu.
+confirm_dismiss	Član posade\nće otići\nzauvek.\nSiguran si?
+confirm_end_game	Da li si siguran?\nSav napredak će biti izgubljen.
+confirm_leave_crew	Da li si siguran?\nTvoja posada je\njoš uvek na\nneprijateljskom brodu.
+confirm_new_game	UPOZORENJE:\nDa li sigurno želiš da počneš novu igru? Prethodni napredak će biti izgubljen.
+confirm_reset_keys	Vratiti sve\nprečice?
+confirm_wipe_profile	Da li si siguran?\nIzgubićeš sve\notključane brodove,\ndostignuća\ni statistiku.
+button_cancel	OTKAŽI
+button_confirm	POTVRDI
+tutorial_continue	NASTAVI
+error_resolution	Napomena: FTL zahteva minimalnu rezoluciju 1280x720, a izgleda da je tvoj računar ne podržava. Ako misliš da je ova poruka greška, piši Subset Games na devteam@ftlgame.com.
+error_manual_resolution	Nažalost, FTL nije mogao da se pokrene u zadatoj rezoluciji (\1 x \2). Podešavanja slike su automatski vraćena na prozorski režim.
+error_native_fullscreen	Nažalost, FTL nije mogao da se pokrene u izvornom režimu celog ekrana. Tvoj monitor ne podržava potrebnu rezoluciju (1280 x 720). Podešavanja slike su automatski vraćena na razvučeni ceo ekran.
+error_framebuffer_stretch	Tvoj sistem ne podržava framebuffer, pa razvučeni ceo ekran nije dostupan i prozoru FTL-a se ne može menjati veličina. Podešavanja slike su automatski vraćena na prozorski režim.
+error_framebuffer	Tvoj sistem ne podržava framebuffer, pa razvučeni ceo ekran neće biti dostupan i prozoru FTL-a se neće moći menjati veličina.
+screen_changed	Nedavno si promenio podešavanja ekrana. Da li su prihvatljiva?\n\nIgra će se zatvoriti i vratiti podešavanja za \1
+screen_changed_seconds	\1 sekundi
+screen_changed_1_second	1 sekundu
+keep_screen	Zadrži podešavanja
+revert_screen	Vrati podešavanja ekrana i izađi
+mind_blocked_shield	Kontrola uma ne prolazi kroz super štitove.
+mind_blocked_blackout	Kontrola uma nije moguća u sobama u kojima ne možeš da otkriješ život.
+rename	Pritisni ENTER ili ESCAPE da potvrdiš ime.
+stations_saved	Položaji sačuvani!
+no_stations	Nema sačuvanih položaja!
+return_stations	Nazad na položaje!
+nameless_one	Bezimeni
+game_center	Čeka se Game Center
+game_center_slow	Ako Game Center ne odgovara, možeš ga isključiti na stranici FTL u aplikaciji Podešavanja.
+game_center_disabled	Napomena: podrška za Game Center je isključena.
+default_dead_crew	Nedostajaće nam ovaj član posade.
+first_run_tip_pc	SAVET: Meni u igri otvaraš tasterom ESCAPE. Odatle možeš početi iznova ili menjati podešavanja.
+first_run_tip_ipad	SAVET: Meni u igri otvaraš dodirom na dugme PODEŠAVANJA u gornjem desnom uglu ekrana. Odatle možeš početi iznova ili menjati podešavanja.
+demo_locked	Nedostupno u FTL demu
+beam_tutorial	Zraci mogu pogoditi više soba. Pri ciljanju PREVUCI prstom da nacrtaš početnu putanju.\n\nKad je nacrtaš, prevlačenjem JEDNIM prstom menjaš ugao, a sa DVA prsta menjaš položaj. Eksperimentiši za najbolju putanju!
+loading	UČITAVANJE
+save_error	"FTL: Faster Than Light" ne može da sačuva napredak.\n\nIzađi iz igre i proveri da li ga antivirusni program blokira.\n\nAko se problem nastavi, piši nam na contact@subsetgames.com
+matthew_justin	Matthew Davis i Justin Ma

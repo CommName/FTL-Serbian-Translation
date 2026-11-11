@@ -67,6 +67,8 @@ def extract_accent(f, ref_ch):
     bb = ink_bbox(bottom)
     if ib is None or bb is None:
         return None
+    if not same_body(bottom, f.bitmap(bc)):
+        return None  # accented glyph was redrawn (e.g. HL1 Š), its accent can't be lifted
     ink = top.crop((ib[0], ib[1], ib[2] + 1, ib[3] + 1))
     gap = k - (ib[3] + 1)
     # centre (×2) of accent ink minus centre (×2) of base ink, both in R's coordinates
@@ -74,7 +76,62 @@ def extract_accent(f, ref_ch):
     return Accent(ink, gap, delta2)
 
 
+def same_body(a, b, min_ratio=0.85):
+    """Do two bitmaps show the same letter (ink-cropped, >= min_ratio matching pixels)?"""
+    ba, bb = a.getbbox(), b.getbbox()
+    if not ba or not bb:
+        return False
+    a, b = a.crop(ba), b.crop(bb)
+    if a.size != b.size:
+        return False
+    pa, pb = a.load(), b.load()
+    n = a.size[0] * a.size[1]
+    same = sum((pa[x, y] > 127) == (pb[x, y] > 127) for x in range(a.size[0]) for y in range(a.size[1]))
+    return same / n >= min_ratio
+
+
+def pixels(rows):
+    """Bitmap from strings: '#' = on, anything else = off."""
+    img = Image.new("L", (max(len(r) for r in rows), len(rows)), 0)
+    px = img.load()
+    for y, r in enumerate(rows):
+        for x, c in enumerate(r):
+            if c == "#":
+                px[x, y] = ON
+    return img
+
+
+# Hand-drawn accents for fonts where references can't be extracted.
+# mark -> (ink rows, gap rows under the accent)
+ACCENT_OVERRIDES = {
+    "HL1": {"caron": (["# #", " # "], 0)},
+    # HL2 is an outlined font: '#' is the outline, the hollow V inside is the stroke
+    "HL2": {"caron": (["#####", "# # #", " # # "], 0)},
+}
+# Whole hand-drawn glyphs: char -> (rows, bearing_y, left, right)
+GLYPH_OVERRIDES = {
+    "HL2": {
+        "đ": (["  #####",
+               "  #   #",
+               " ### ##",
+               "##   # ",
+               "# ## # ",
+               "# ## # ",
+               "# ## # ",
+               "##   # ",
+               " ##### "], 8, 0, 0),
+    },
+}
+
+
+# fonts whose Icelandic Ð is well drawn and can serve as Serbian Đ
+ETH_AS_DJ = {"HL1", "HL2"}
+
+
 def find_accent(f, mark, upper):
+    ov = ACCENT_OVERRIDES.get(getattr(f, "name", ""), {}).get(mark)
+    if ov:
+        return Accent(pixels(ov[0]), ov[1], 0)
     """Best accent for (mark, case); falls back to other case / synthesised caron."""
     refs = REFS[mark]
     same = [c for c in refs if c.isupper() == upper]
@@ -210,12 +267,21 @@ def patch(f):
     added = []
     for ch, (base, mark) in TARGETS.items():
         cp = ord(ch)
-        if cp in f.glyphs or ord(base) not in f.glyphs:
+        if (cp in f.glyphs and not f.is_placeholder(cp)) or ord(base) not in f.glyphs:
             continue
-        if mark == "bar":
+        gov = GLYPH_OVERRIDES.get(getattr(f, "name", ""), {}).get(ch)
+        if gov:
+            rows, by, l, r = gov
+            img, ex = pixels(rows), f.glyphs[ord(base)].extra
+        elif ch == "Đ" and f.name in ETH_AS_DJ and ord("Ð") in f.glyphs:
+            # Icelandic Eth has the same shape as Serbian Đ: reuse the designer's glyph
+            e = f.glyphs[ord("Ð")]
+            img, by, l, r, ex = f.bitmap(ord("Ð")).copy(), e.by, e.left, e.right, e.extra
+        elif mark == "bar":
             img, by, l, r, ex = bar_lower(f) if ch == "đ" else bar_upper(f)
         else:
-            has_ref = any(extract_accent(f, c) for c in REFS[mark])
+            has_ref = (any(extract_accent(f, c) for c in REFS[mark])
+                       or mark in ACCENT_OVERRIDES.get(getattr(f, "name", ""), {}))
             acc = find_accent(f, mark, ch.isupper())
             synth = mark == "caron" and not has_ref
             img, by, l, r, ex = compose(f, base, acc, synth)
@@ -251,7 +317,7 @@ def render(f, text, scale=3):
     return img.resize((img.size[0] * scale, img.size[1] * scale), Image.NEAREST)
 
 
-SAMPLE = ("Čačak, Ćuprija, Šabac, Žabalj, Đurđevdan\n"
+SAMPLE = ("PODEŠAVANJA IZAĐI SAČUVAJ KRENI ČUVAR ĐAK\nČačak, Ćuprija, Šabac, Žabalj, Đurđevdan\n"
           "čćšžđ ČĆŠŽĐ — Brod je oštećen! Đavolski štit\n"
           "ŠTIT ŽIVOTNA PODRŠKA ĆELIJA ČUVAR ĐAK")
 
