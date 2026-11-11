@@ -26,6 +26,8 @@ def main():
         d = load(os.path.join(orig, "data", f"text_{g}.xml"))
         with open(os.path.join(ROOT, "src", "en", f"{g}.json"), "w", encoding="utf-8") as f:
             json.dump(d, f, ensure_ascii=False, indent=1)
+        with open(os.path.join(ROOT, "src", "en", f"{g}.tsv"), "w", encoding="utf-8") as f:
+            f.writelines(f"{k}\t{v}\n" for k, v in d.items())
         print(f"{g}: {len(d)} strings")
 
 

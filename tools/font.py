@@ -15,6 +15,7 @@ Layout (big endian), reverse-engineered:
      u16 mips(1), u16 0, u32 data_rel_offset(0x20), u32 data_size, 8 pad,
      then width*height 8-bit alpha.
 """
+import os
 import struct
 from dataclasses import dataclass
 
@@ -42,6 +43,7 @@ class Glyph:
 class Font:
     def __init__(self, path):
         d = open(path, "rb").read()
+        self.name = os.path.splitext(os.path.basename(path))[0]
         assert d[:4] == b"FONT"
         self.head = bytearray(d[4:8])
         tbl, = struct.unpack(">I", d[8:12])
@@ -88,6 +90,11 @@ class Font:
         new.paste(self.img, (0, 0))
         self.img, self.th = new, self.th * 2
 
+    def is_placeholder(self, cp):
+        """Glyph present but empty (FTL fonts contain 1x1 blank stand-ins for some letters)."""
+        g = self.glyphs.get(cp)
+        return g is not None and (g.w * g.h <= 1 or self.bitmap(cp).getbbox() is None)
+
     def add(self, cp, bmp, by, left, right, template_extra=b"\0\0\0"):
         w, h = bmp.size
         spot = self.free_spot(w, h)
@@ -96,11 +103,13 @@ class Font:
             spot = self.free_spot(w, h)
         x, y = spot
         self.img.paste(bmp, (x, y))
-        if cp in self.glyphs:
-            raise ValueError(f"U+{cp:04X} already present")
         g = Glyph(cp, x, y, w, h, by, left, right, template_extra)
+        if cp in self.glyphs:  # replace (e.g. an empty placeholder) keeping its record slot
+            old = self.glyphs[cp]
+            self.order[self.order.index(old)] = g
+        else:
+            self.order.append(g)
         self.glyphs[cp] = g
-        self.order.append(g)
 
     # --- output ---------------------------------------------------------
     def save(self, path):

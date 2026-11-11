@@ -6,13 +6,18 @@ from font import Font
 from serbian_glyphs import patch
 
 
+BR = "\\n"
+ALLOWED = set("čćšžđČĆŠŽĐ„”")
+
+
 def font_charsets():
     sets = {}
     for name in TEXT_FONTS:
         f = Font(os.path.join(ROOT, "src", "orig", "fonts", f"{name}.font"))
         if name in PATCHED_FONTS:
             patch(f)
-        sets[name] = set(f.glyphs)
+        # empty stand-in glyphs (e.g. HL1 Ž before patching) don't count as covered
+        sets[name] = {c for c in f.glyphs if not (chr(c).isalpha() and f.is_placeholder(c))}
     return sets
 
 
@@ -41,12 +46,15 @@ def main():
                 print(f"ERROR {g}:{k}: placeholders {PLACEHOLDER.findall(src)} -> {PLACEHOLDER.findall(t)}"); errors += 1
             if src.strip() and not t.strip():
                 print(f"ERROR {g}:{k}: empty translation"); errors += 1
+            foreign = {c for c in t if not (32 <= ord(c) < 127 or c in ALLOWED)}
+            if foreign:
+                print(f"ERROR {g}:{k}: disallowed chars {''.join(sorted(foreign))!r}"); errors += 1
             bad = {c for c in t if ord(c) not in common_chars and c not in "\n\t"}
             if bad:
                 missing_in = [n for n, cs in fonts.items() if any(ord(c) not in cs for c in bad)]
                 print(f"ERROR {g}:{k}: chars {''.join(sorted(bad))!r} missing in {missing_in}"); errors += 1
-            if src.count("\n") != t.count("\n"):
-                print(f"WARN  {g}:{k}: line breaks {src.count(chr(10))} -> {t.count(chr(10))}"); warnings += 1
+            if src.count("\\n") != t.count("\\n"):
+                print(f"WARN  {g}:{k}: line breaks {src.count(BR)} -> {t.count(BR)}"); warnings += 1
             if len(src) >= 8 and len(t) > a.long * len(src) + 4:
                 if a.v:
                     print(f"WARN  {g}:{k}: long ({len(src)} -> {len(t)})")

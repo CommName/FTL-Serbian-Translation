@@ -1,0 +1,53 @@
+# obuka
+tutorial_SHIP_INTRO_1	Tvoj brod, Kestrel, je u središtu uobičajenog prikaza igre.
+tutorial_SHIP_INTRO_2	Okrugle ikone na dnu ekrana su glavni sistemi tvog broda. \n\nSistemi troše energiju iz reaktora (na koji pokazuje strelica).
+tutorial_SHIP_INTRO_3	Ovo su podsistemi tvog broda. \n\nZa razliku od sistema, njima nije potrebna energija iz reaktora.
+tutorial_SHIP_INTRO_4_PC	Pređi mišem preko ikone sistema da dobiješ više podataka o njemu. \n\nOdgovarajuća prostorija sistema će zasvetleti.
+tutorial_SHIP_INTRO_5	Merač trupa, nivo štitova i trenutni resursi su gore levo. \n\nAko merač trupa padne na nulu, brod će eksplodirati.
+tutorial_POWER_SYSTEM_1	Trebalo bi da krenemo, ali izgleda da su ti motori trenutno bez napajanja. \n\nZELENA polja sistema su napajana. BELA polja nisu napajana i ne pomažu Kestrelu!
+tutorial_POWER_SYSTEM_2_PC	LEVI KLIK na ikonu motora i energija će preći iz REAKTORA u MOTORE. \n\nTrudi se da vitalni sistemi budu potpuno napajani. DESNI KLIK gasi sistem ako želiš da preusmeriš njegovu energiju!
+tutorial_POWER_SYSTEM_2_IPAD	PREVUCI NAGORE po sistemu motora i energija će preći iz REAKTORA u MOTORE. \n\nTrudi se da vitalni sistemi budu potpuno napajani. PREVUCI NADOLE da ugasiš sistem ako želiš da preusmeriš njegovu energiju!
+tutorial_IPAD_TOOLTIPS_IPAD	PREVUCI UDESNO po sistemu da otvoriš njegov info panel (kao što pokazuje info strelica). \n\nTako dobijaš detaljniji opis njegove namene i stanja.
+tutorial_DAMAGE_SYSTEM_1	O ne! Prostorija motora je pretrpela 2 štete! Ikona sistema je pocrvenela jer je pokvaren. \n\nI merač trupa je pretrpeo 2 štete.
+tutorial_DAMAGE_SYSTEM_2_PC	Posada ne može da popravi trup broda, ali može da popravi motore! \n\nČlanove posade biraš LEVIM KLIKOM. Više njih biraš levim klikom i prevlačenjem. \n\nIzaberi nekoga iz posade za nastavak.
+tutorial_DAMAGE_SYSTEM_2_IPAD	Posada ne može da popravi trup broda, ali može da popravi motore! \n\nČlana posade biraš DODIROM, a više njih PREVLAČENJEM preko njih. \n\nIzaberi nekoga iz posade za nastavak.
+tutorial_DAMAGE_SYSTEM_3_PC	Kad izabereš posadu, DESNI KLIK na prostoriju ih šalje tamo. \n\nPošalji članove posade u prostoriju motora.
+tutorial_DAMAGE_SYSTEM_3_IPAD	Kad izabereš posadu, DODIRNI prostoriju da ih pošalješ tamo. \n\nPošalji članove posade u prostoriju motora.
+tutorial_DAMAGE_SYSTEM_4	Članovi posade sami popravljaju sisteme, gase požare, krpe proboje i bore se sa uljezima u svojoj prostoriji. \n\nBorba, nedostatak kiseonika i vatra povređuju posadu.
+tutorial_DAMAGE_SYSTEM_5	Odlično, motori su popravljeni! \n\nPrimeti da popravljeni sistemi sami pokušavaju da se vrate na poslednji nivo napajanja.
+tutorial_DAMAGE_SYSTEM_5_5	Neke sisteme mogu da opslužuju članovi posade i tako daju sistemu mali bonus. Posada automatski opslužuje svaki ispravan sistem u svojoj prostoriji. \n\nSilueta iznad crtica energije pokazuje da li je sistem opslužen.
+tutorial_FIRE_IPAD_1_IPAD	O ne! Izbio je požar u desnoj vazdušnoj komori! Mogao bi da pošalješ posadu da ga ugasi, ali hajde da iskoristimo vazdušnu komoru. \n\nDODIRNI sistem vrata dole desno da upravljaš vratima broda.
+tutorial_FIRE_IPAD_2_IPAD	DODIRNI vrata da ih otvoriš ili zatvoriš. PREVUCI preko vrata da brzo otvoriš (ili zatvoriš) više njih. \n\nSada otvori VRATA vazdušne komore.
+tutorial_FIRE_PC_1_PC	O ne! Izbio je požar u desnoj vazdušnoj komori! Mogao bi da pošalješ posadu da ga ugasi, ali hajde da iskoristimo vazdušnu komoru. \n\nOtvori jedna VRATA vazdušne komore LEVIM KLIKOM na njih.
+tutorial_FIRE_END	Otvaranjem vrata možeš da isprazniš kiseonik iz delova broda i ugasiš požare. \n\nProstorije postaju ružičaste dok kiseonik ističe. Sistem kiseonika će polako ponovo napuniti brod kad nestanu curenja.
+tutorial_DAMAGE_SYSTEM_6	Sad kad su motori popravljeni i požari ugašeni, treba da izvedemo FTL skok do sledeće lokacije. Ako trenutno nemaš pilota, pošalji nekoga za kormilo.
+tutorial_DAMAGE_SYSTEM_7_PC	Svaki skok troši 1 gorivo. Bez goriva ostaćeš zarobljen i nećeš moći da skočiš. Za skok je potreban i član posade u sistemu pilotiranja i napajan sistem motora. \n\nKlikni na dugme SKOK za nastavak.
+tutorial_DAMAGE_SYSTEM_7_IPAD	Svaki skok troši 1 gorivo. Bez goriva ostaćeš zarobljen i nećeš moći da skočiš. Za skok je potreban i član posade u sistemu pilotiranja i napajan sistem motora. \n\nDodirni dugme SKOK za nastavak.
+tutorial_STAR_MAP_1_PC	Ovo je mapa svetionika. Brodić označava tvoju trenutnu lokaciju. \n\nPređi mišem preko lokacije da saznaš više o njoj. \n\nLEVI KLIK na povezanu tačku da odmah otputuješ tamo.
+tutorial_STAR_MAP_1_IPAD	Ovo je mapa svetionika. Brodić označava tvoju trenutnu lokaciju. \n\nDODIRNI lokaciju da saznaš više o njoj. \n\nIzaberi susednu lokaciju i dodirni SKOK da odmah otputuješ tamo.
+tutorial_COMBAT_0_PC	Dobrodošao u borbu! RAZMAKNICOM ili SREDNJIM TASTEROM MIŠA možeš u svakom trenutku da pauziraš igru da smisliš strategiju, izdaš naređenja ili preraspodeliš energiju. \n\nPokušaj sada da pauziraš igru.
+tutorial_COMBAT_0_IPAD	Dobrodošao u borbu! Dodirni DUGME PAUZA da u svakom trenutku pauziraš igru da smisliš strategiju, izdaš naređenja ili preraspodeliš energiju. \n\nPokušaj sada da pauziraš igru.
+tutorial_COMBAT_IPAD_0_IPAD	Primetićeš da je fokus na jednom brodu u isto vreme. DODIRNI bilo koji brod da prebaciš fokus i uvećaš ga. \n\nKad budeš spreman, DODIRNI sistem oružja da se pripremiš za paljbu!
+tutorial_COMBAT_1_PC	Za borbu moraš da napajaš oružje. Potrebna energija je prikazana u polju oružja (označeno dole). \n\nLEVI KLIK na njega da ga napajaš (napajano oružje postaje BELO). DESNI KLIK gasi oružje.
+tutorial_COMBAT_1_IPAD	Za borbu moraš da napajaš oružje. Potrebna energija je prikazana u polju oružja. \n\nDODIRNI ga da ga napajaš (napajano oružje postaje BELO). Dodir na ISKLJ. gasi oružje.
+tutorial_COMBAT_2_PC	LEVI KLIK na napajano oružje da ga naoružaš, zatim LEVIM KLIKOM izaberi prostoriju na neprijateljskom brodu. Oružju možeš pristupiti i prečicama 1-4. \n\nOružje će opaliti kad bude spremno. Proveri da igra nije pauzirana (RAZMAKNICA ili SREDNJI TASTER MIŠA).
+tutorial_COMBAT_2_IPAD	Oružje je sada napajano. Ponovo DODIRNI oružje da ga naoružaš, zatim DODIROM izaberi prostoriju na neprijateljskom brodu. \n\nOružje će opaliti kad bude spremno. Proveri da igra nije pauzirana (dugme dole desno).
+tutorial_COMBAT_3	O ne! Tvoj laser sa 2 hica ne može da probije piratove štitove nivoa 2, ali srećom ni on ne može da probije tvoje. \n\n(Napomena: Svake 2 napajane crtice sistema štitova daju ti još 1 štit.)
+tutorial_COMBAT_4	Artemis je automatski postavljen na slobodno mesto za oružje. Svaki hitac troši rakete, ali rakete probijaju sve neprijateljske štitove. \n\nIskoristi raketu da oštetiš neprijateljski sistem ŠTITOVA i tada će i tvoji laseri moći da prođu.
+tutorial_COMBAT_4_5	Primetićeš da ikone neprijateljskih sistema postaju NARANDŽASTE kad su OŠTEĆENI, a CRVENE kad su UNIŠTENI. \n\nPonovni napadi na CRVENI sistem ne nanose mu dodatnu štetu, ali i dalje oštećuju neprijateljski TRUP. Svedi trup na nulu i brod će eksplodirati.
+tutorial_COMBAT_4_6_PC	Ako zaboraviš šta znači koja ikona neprijateljskog sistema, pređi mišem preko zelenih simbola na dnu okvira mete. \n\nMete biraj mudro, mada su oružje i štitovi često dobar izbor. Sada porazi pirata!
+tutorial_COMBAT_4_6_IPAD	Ako zaboraviš šta znači koja ikona neprijateljskog sistema, DODIRNI i DRŽI prst na zelenim simbolima na dnu okvira mete. \n\nMete biraj mudro, mada su oružje i štitovi često dobar izbor.
+tutorial_INVENTORY_1_PC	Oružja i dronovi idu u teret ako u njihovom sistemu nema mesta. \n\nLEVI KLIK na dugme podataka o brodu da opremimo novo oružje.
+tutorial_INVENTORY_1_IPAD	Oružja i dronovi idu u teret ako u njihovom sistemu nema mesta. \n\nDODIRNI dugme podataka o brodu da opremimo novo oružje.
+tutorial_INVENTORY_2_PC	Ovo je ekran opreme. Detaljnije podatke o oružju, dronovima i augmentacijama vidiš kad pređeš mišem preko njih. \n\nKlikni i prevuci novi zrak Halebarda preko Artemisa da ih zameniš. Zatim pritisni PRIHVATI.
+tutorial_INVENTORY_2_IPAD	Ovo je ekran opreme. Detaljnije podatke o oružju, dronovima i augmentacijama vidiš kad ih dodirneš. \n\nDodirni i prevuci novi zrak Halebarda preko Artemisa da ih zameniš. Zatim dodirni PRIHVATI.
+tutorial_COMBAT_5	Ups, tvoj sistem oružja (maks. energija 2) nije dovoljno nadograđen za novo oružje (potrebna energija 3). \n\nPonovo otvori ekran broda da to popravimo.
+tutorial_UPGRADES_1	Ovo je ekran nadogradnji. Ovde vidiš detalje o sistemima i nadograđuješ ih trošeći OTPAD. \n\nNa dnu menija možeš nadograditi i REAKTOR, što je važno da bi sve bilo potpuno napajano.
+tutorial_UPGRADES_1_2_PC	LEVI KLIK na sistem oružja da ga nadogradiš. Zatim klikni PRIHVATI da zatvoriš nadogradnje.
+tutorial_UPGRADES_1_2_IPAD	DODIRNI sistem oružja da ga izabereš, zatim dodirni dugme NADOGRADI desno da potrošiš otpad i poboljšaš sistem. \n\nKad završiš, dodirni PRIHVATI da zatvoriš ekran nadogradnji.
+tutorial_UPGRADES_2_PC	Sada napajaj novo oružje. \n\nMožda ćeš morati da ugasiš drugo oružje da bi bilo dovoljno energije (DESNI KLIK gasi oružje).
+tutorial_UPGRADES_2_IPAD	Sada napajaj novo oružje. \n\nMožda ćeš morati da ugasiš drugo oružje da bi bilo dovoljno energije (dodir na ISKLJ. gasi oružje).
+tutorial_UPGRADES_3_PC	Poslednji savet: Redosled oružja na traci sistema oružja menjaš klikom i prevlačenjem. \n\nAko je sistem oružja oštećen, taj redosled određuje kojim se redom oružja gase (zdesna nalevo).
+tutorial_UPGRADES_3_IPAD	Poslednji savet: Redosled oružja na traci sistema oružja menjaš dodirom i prevlačenjem. \n\nAko je sistem oružja oštećen, taj redosled određuje kojim se redom oružja gase (odozgo nadole).
+tutorial_DONE_1_PC	To su osnove. Srećno tamo napolju. \n\nPritisni NASTAVI da izađeš iz obuke.
+tutorial_DONE_1_IPAD	To su osnove. Srećno tamo napolju. \n\nDodirni NASTAVI da izađeš iz obuke.

@@ -1,0 +1,65 @@
+# opisi sistema i HUD-a
+tooltip_oxygen	Kiseonik: Obnavlja zalihe kiseonika na brodu.
+tooltip_doors	Vrata: Daljinsko otvaranje/zatvaranje vrata.
+tooltip_doors_touch	Vrata: Daljinsko otvaranje/zatvaranje vrata. Na svom brodu dodirni pojedinačna vrata ili prevuci preko više njih da ih otvoriš ili zatvoriš.
+tooltip_shields	Štitovi: Održavaju štitove koji zaustavljaju projektile. Posada ubrzava obnavljanje štita.
+tooltip_pilot	Pilotiranje: Potreban je član posade za izbegavanje u borbi ili skok.
+tooltip_engines	Motori: Pune FTL pogon i napajaju izbegavanje. Posada povećava šansu za izbegavanje.
+tooltip_sensors	Senzori: Omogućavaju pogled na sve prostorije i podatke o neprijateljskim brodovima.
+tooltip_medbay	Ambulanta: Leči članove posade u ambulanti
+tooltip_weapons	Oružje: Klikni na oružje da ga napuniš i opališ. Posada skraćuje punjenje.
+tooltip_weapons_touch	Oružje: Dodirni oružje da ga napuniš i opališ. Posada skraćuje punjenje.
+tooltip_drones	Dronovi: Napajaju automatizovane robote za napad i odbranu.
+tooltip_teleporter	Teleporter: Šalje članove posade iz sobe teleportera u abordaž neprijateljskih brodova.
+tooltip_cloaking	Maskiranje: Delimično nestaješ u drugoj dimenziji, dobijaš +60 izbegavanja i privremeno zaustavljaš punjenje i nišanjenje neprijateljskog oružja.
+tooltip_artillery	Artiljerija: Automatski ispaljuje zrak od 1 štete koji probija sve štitove.
+tooltip_powerTotal	Reaktor: Neiskorišćena energija reaktora dostupna za napajanje sistema.
+tooltip_battery	Baterija: Aktiviraj da privremeno povećaš dostupnu energiju reaktora.
+tooltip_clonebay	Klonirnica: Automatski klonira svakog poginulog člana posade.
+tooltip_mind	Kontrola uma: Privremeno pretvara neprijatelje u saveznike.
+tooltip_hacking	Hakovanje: Zaključava prostoriju sistema, povremeno ometa sistem i omamljuje posadu.
+tooltip_oxygen_enemy	Kiseonik: Obnavlja zalihe kiseonika na neprijateljskom brodu.
+tooltip_doors_enemy	Vrata: Napaja neprijateljska blindirana vrata i usporava kretanje abordažera.
+tooltip_shields_enemy	Štitovi: Napaja neprijateljske štitove koji zaustavljaju projektile.
+tooltip_pilot_enemy	Pilotiranje: Ako radi i ima člana posade, neprijatelj može da izbegava tvoje hice.
+tooltip_engines_enemy	Motori: Pune neprijateljski FTL pogon i napajaju izbegavanje.
+tooltip_sensors_enemy	Senzori: Neprijatelju nemaju funkciju.
+tooltip_medbay_enemy	Ambulanta: Leči neprijateljske članove posade.
+tooltip_weapons_enemy	Oružje: Napaja neprijateljsko oružje.
+tooltip_weapons_touch_enemy	Oružje: Napaja neprijateljsko oružje. Uništi ga da prestanu da pucaju.
+tooltip_drones_enemy	Dronovi: Napaja neprijateljske dronove. Uništi ga da ih ugasiš.
+tooltip_teleporter_enemy	Teleporter: Neprijatelj ga koristi da teleportuje uljeze na tvoj brod.
+tooltip_cloaking_enemy	Maskiranje: Dok je aktivno, tvoje oružje ne može da se puni, a izbegavanje neprijatelja raste za 60.
+tooltip_artillery_enemy	Artiljerija: Napaja jedno moćno oružje.
+tooltip_battery_enemy	Baterija: Daje neprijatelju privremenu energiju.
+tooltip_clonebay_enemy	Klonirnica: Automatski klonira svakog člana posade kog ubiješ i vraća ga u borbu!
+tooltip_mind_enemy	Kontrola uma: Može privremeno da preuzme kontrolu nad tvojom posadom. Uništi je da to sprečiš.
+tooltip_hacking_enemy	Hakovanje: Lansira dron za hakovanje koji može privremeno da onesposobi sistem.
+tooltip_hull	Trenutno stanje trupa. Ako padne na nulu, brod je uništen.
+tooltip_droneCount	Broj delova za dronove. Svaki dron troši jedan deo.
+tooltip_fuelCount	Količina goriva. Svaki skok troši jednu jedinicu goriva.
+tooltip_missileCount	Broj raketa. Neka oružja troše jednu raketu po hicu.
+tooltip_scrapCount	Ukupno otpada
+tooltip_FTLButton	Otvara zvezdanu mapu za izbor odredišta skoka.
+tooltip_jump_noPiloting	Sistem pilotiranja mora da radi da bi skok bio moguć.
+tooltip_jump_noCrew	Za skok mora biti član posade u sistemu pilotiranja.
+tooltip_jump_noEngines	Sistem motora mora da radi da bi skok bio moguć.
+tooltip_jump_noFuel	Ne možeš da skočiš bez goriva.
+tooltip_shieldDisplay	Trenutno stanje štitova.
+tooltip_evadeDisplay	Izbegavanje: Procenat šanse da nadolazeći hici promaše tvoj brod. Zavisi od nivoa energije motora.
+tooltip_oxygenDisplay	Kiseonik: Prosečan nivo kiseonika na brodu. Većini posade je potreban kiseonik za život. Sistem kiseonika ga obnavlja ako je napajan.
+tooltip_energyShieldDisplay	Zoltanski energetski štit: Potpuno zaustavlja nadolazeću štetu od svih vrsta oružja.
+tooltip_autofire	Uključuje/isključuje automatsko pucanje oružja. \nPrečica: \1\n\n\2 + NIŠANJENJE tera oružje da radi suprotno trenutnom podešavanju
+tooltip_asteroids	Nalaziš se u asteroidnom polju. Asteroidi će povremeno udarati u brod.
+tooltip_sun	Previše si blizu zvezde. Sunčeve baklje će zapaliti brod. Štitovi umanjuju efekat.
+tooltip_nebula	Nalaziš se u maglini. Senzori neće raditi, ali pobunjenička flota će sporije napredovati ka tebi.
+tooltip_storm	U ovom delu magline besni plazma oluja. Glavni reaktor radi samo upola kapaciteta.
+tooltip_pulsar	Blizu si pulsara. Povremeni talasi elektromagnetne energije ometaće tvoje sisteme.
+tooltip_PDS_FLEET	Protivbrodske baterije flote gađaju tebe.
+tooltip_PDS_PLAYER	Protivbrodska baterija na planeti gađa tebe.
+tooltip_PDS_ENEMY	Protivbrodska baterija na planeti gađa tvoje neprijatelje.
+tooltip_PDS_ALL	Protivbrodska baterija na planeti puca na sve brodove u oblasti.
+tooltip_map_wait	Čekaj da stigne pomoć.
+tooltip_map_distress	Signal za pomoć može povećati šanse da te neko pronađe, ali ne zna se ko će te pronaći prvi.
+tooltip_rename	Klikni za preimenovanje
+tooltip_subsystems	Podsistemi se napajaju besplatno dok god rade.

@@ -5,17 +5,19 @@ from xml.sax.saxutils import escape
 from common import ROOT, GROUPS, PATCHED_FONTS, en, sr, pl_order
 from font import Font
 from serbian_glyphs import patch
+from images import render_all, png_bytes
 
-VERSION = "0.1"
+VERSION = "1.1"
 METADATA = f"""<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
 	<title><![CDATA[Srpski prevod (Serbian translation)]]></title>
 	<threadUrl><![CDATA[]]></threadUrl>
-	<author><![CDATA[ftl_srb]]></author>
+	<author><![CDATA[Milan Janković]]></author>
 	<version><![CDATA[{VERSION}]]></version>
 	<description><![CDATA[Serbian (Latin script) translation for FTL 1.6.
 Replaces the Polish language slot: choose "Srpski" in Options > Language.
-Adds č ć š ž đ glyphs to the game fonts.]]></description>
+Adds č ć š ž đ glyphs to the game fonts and Serbian versions of the
+images with text (main menu, loading, pause banners, map, MISS/RESIST).]]></description>
 </metadata>
 """
 
@@ -42,6 +44,8 @@ def main():
             patch(f)
             f.save(tmp)
             z.write(tmp, f"fonts/{name}.font")
+        for path, im in render_all().items():
+            z.writestr(path, png_bytes(im))
     os.remove(tmp)
     n = sum(len(S[g]) for g in GROUPS)
     print(f"wrote {out} ({n}/{len(merged)} strings translated)")
